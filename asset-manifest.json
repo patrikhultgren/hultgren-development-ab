@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hultgren-development-ab/static/css/main.073c9b0a.css",
+    "main.js": "/hultgren-development-ab/static/js/main.18ce35ac.js",
+    "static/js/787.a2e1bf16.chunk.js": "/hultgren-development-ab/static/js/787.a2e1bf16.chunk.js",
+    "static/media/logo.svg": "/hultgren-development-ab/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hultgren-development-ab/index.html",
+    "main.073c9b0a.css.map": "/hultgren-development-ab/static/css/main.073c9b0a.css.map",
+    "main.18ce35ac.js.map": "/hultgren-development-ab/static/js/main.18ce35ac.js.map",
+    "787.a2e1bf16.chunk.js.map": "/hultgren-development-ab/static/js/787.a2e1bf16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.18ce35ac.js"
+  ]
+}
