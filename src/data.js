@@ -13,7 +13,7 @@ export const projects = [
   {
     logo: <AkademibokhandelnIcon />,
     teaser:
-      'På Akademibokhandeln har jag jobbat med att sida för sida byta ut dagens sajt mot en Next.js applikation. Bland annat söksidan är utbytt.',
+      'På Akademibokhandeln har jag lett frontent-teamet med att sida för sida byta ut dagens sajt mot en Next.js applikation.',
     link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
   },
   {
