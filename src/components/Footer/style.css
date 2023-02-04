@@ -1,0 +1,69 @@
+#ph-footer address {
+  margin-bottom: 0;
+}
+
+#ph-footer {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  font-size: 0.9em;
+  border-top: 1px solid #c3c3c3;
+  color: #d6d6d6;
+}
+
+#ph-footer .footer-col {
+  margin-bottom: 2em;
+}
+
+#ph-footer a {
+  display: block;
+  color: #d6d6d6;
+}
+
+#ph-footer a:hover {
+  text-decoration: none;
+}
+
+#ph-footer span.footer-header {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  color: #fff;
+}
+
+#footer-col-1 img {
+  max-width: 500px;
+  width: 100%;
+}
+
+#footer-col-2,
+#footer-col-3,
+#footer-col-4 {
+  padding-top: 0;
+}
+
+#footer-col-4 a {
+  display: inline-block;
+}
+
+@media (min-width: 576px) {
+  #footer-col-2,
+  #footer-col-3,
+  #footer-col-4 {
+    padding-top: 0.3em;
+  }
+}
+
+@media (min-width: 992px) {
+  #footer-col-1 {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #footer-col-1 {
+    background-size: 255 82px;
+  }
+}
+
+.fa-facebook {
+  margin-right: 0.2em;
+}
