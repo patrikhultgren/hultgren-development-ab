@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../../images/patrik-hultgren.png'
+import image from 'images/patrik-hultgren.png'
 
 import './style.css'
 

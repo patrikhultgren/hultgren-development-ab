@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useMemo } from 'react'
 import classNames from 'classnames'
-import { menuitems } from '../../data'
+import { menuitems } from 'data'
 
 import './style.css'
 
