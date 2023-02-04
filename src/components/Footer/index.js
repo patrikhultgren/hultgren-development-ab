@@ -1,5 +1,5 @@
 import React from 'react'
-import HultgrenDevelopmentIcon from 'primitives/Icon/HultgrenDevelopment'
+import HultgrenDevelopmentLogo from 'primitives/Logo/HultgrenDevelopment'
 
 import './style.css'
 
@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div id="footer-col-1" className="footer-col col-md-6 col-lg-3">
-            <HultgrenDevelopmentIcon />
+            <HultgrenDevelopmentLogo />
           </div>
           <div id="footer-col-2" className="footer-col col-md-6 col-lg-3">
             <address>
