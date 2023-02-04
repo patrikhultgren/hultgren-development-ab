@@ -2,6 +2,7 @@ import TravrondenIcon from 'primitives/Icon/Travronden'
 import ManufacturingGuideIcon from 'primitives/Icon/ManufacturingGuide'
 import BokusIcon from 'primitives/Icon/Bokus'
 import SpelvardeIcon from 'primitives/Icon/Spelvarde'
+import AkademibokhandelnIcon from 'primitives/Icon/Akademibokhandeln'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },
@@ -9,6 +10,12 @@ export const menuitems = [
 ]
 
 export const projects = [
+  {
+    logo: <AkademibokhandelnIcon />,
+    teaser:
+      'På Akademibokhandeln har jag jobbat med att sida för sida byta ut dagens sajt mot en Next.js applikation. Bland annat söksidan är utbytt.',
+    link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
+  },
   {
     logo: <TravrondenIcon />,
     teaser:
