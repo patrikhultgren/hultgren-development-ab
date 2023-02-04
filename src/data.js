@@ -21,7 +21,6 @@ export const projects = [
     logo: <PortalenIcon />,
     teaser:
       'För Bokhandelsgruppen har jag byggt en applikation kallad Portalen. Den sköter inleveranser i Akademibokhandelns butiker.',
-    link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
   },
   {
     logo: <TravrondenIcon />,
