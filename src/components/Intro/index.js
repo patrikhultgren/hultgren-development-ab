@@ -7,7 +7,9 @@ const Intro = () => (
     <div className="jumbotron">
       <div className="container">
         <div className="jumbotron-inner">
-          <h1 className="display-3">Vill du ha hjälp med utvecklingen av din webbplats?</h1>
+          <h1 className="display-3">
+            Vill du ha hjälp med utvecklingen av din webbplats?
+          </h1>
           <div class="lead-teaser">
             <div>
               <p>Ta gärna kontakt med mig.</p>

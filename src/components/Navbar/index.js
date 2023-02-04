@@ -8,23 +8,23 @@ export default function Navbar() {
   const [show, setShow] = useState(false)
 
   const hamburgerClassName = useMemo(
-    () => classNames(
-      'navbar-toggler',
-      'hamburger',
-      show ? 'hamburger-open' : 'collapsed'
-  ), [show])
+    () =>
+      classNames(
+        'navbar-toggler',
+        'hamburger',
+        show ? 'hamburger-open' : 'collapsed'
+      ),
+    [show]
+  )
 
   const navbarClassName = useMemo(
-    () => classNames(
-      'navbar-collapse',
-      'collapse',
-      {'show' : show }
-  ), [show])
-
-  const onMenuToggle = useCallback(
-    () => { setShow(prev => !prev) },
-    []
+    () => classNames('navbar-collapse', 'collapse', { show: show }),
+    [show]
   )
+
+  const onMenuToggle = useCallback(() => {
+    setShow((prev) => !prev)
+  }, [])
 
   return (
     <header id="ph-navbar">
@@ -42,7 +42,7 @@ export default function Navbar() {
           <div />
           <div className={navbarClassName}>
             <ul className="navbar-nav mr-auto">
-              {menuitems.map(menuitem => (
+              {menuitems.map((menuitem) => (
                 <li className="nav-item" key={menuitem.id}>
                   <a href={menuitem.link} className="nav-link">
                     {menuitem.title}
