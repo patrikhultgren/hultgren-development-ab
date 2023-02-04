@@ -38,7 +38,6 @@ export const projects = [
     logo: <BokusLogo />,
     teaser:
       'På Bokus var jag med och tog fram den nya kassan för privatpersoner. Den är byggd i React och med Klarna som betalleverantör.',
-    link: 'https://www.bokus.com',
   },
   {
     logo: <ManufacturingGuideLogo />,
