@@ -5,7 +5,7 @@ import './style.css'
 
 export default function About() {
   return (
-    <article id="ph-about">
+    <main id="ph-about">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-3 col-patrik">
@@ -26,6 +26,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </article>
+    </main>
   )
 }
