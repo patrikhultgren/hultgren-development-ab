@@ -1,6 +1,7 @@
 import TravrondenIcon from 'primitives/Icon/Travronden'
 import ManufacturingGuideIcon from 'primitives/Icon/ManufacturingGuide'
 import BokusIcon from 'primitives/Icon/Bokus'
+import SpelvardeIcon from 'primitives/Icon/Spelvarde'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },
@@ -13,6 +14,12 @@ export const projects = [
     teaser:
       'För Travronden har jag jobbat med ett React baserat CMS som heter TR Content. Systemet används av många sajter inom TR Media.',
     link: 'https://www.travronden.se',
+  },
+  {
+    logo: <SpelvardeIcon />,
+    teaser:
+      'För Spelvärde byggde jag den första versionen av sajten. Jag har även programmerat statistiska texter till startande hästar.',
+    link: 'https://www.spelvarde.se',
   },
   {
     logo: <BokusIcon />,
