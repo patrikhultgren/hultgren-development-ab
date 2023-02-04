@@ -1,0 +1,22 @@
+#ph-about {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #ededed;
+  color: #303030;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+#ph-about .col-patrik {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+@media (min-width: 576px) {
+  #ph-about .col-patrik {
+    margin-bottom: 0;
+  }
+}
+

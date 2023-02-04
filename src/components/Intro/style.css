@@ -1,0 +1,59 @@
+#ph-intro .jumbotron {
+  background-color: inherit;
+  background-size: cover;
+  border-radius: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+#ph-intro .jumbotron .jumbotron-inner {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ph-intro .jumbotron h1,
+#ph-intro .jumbotron p {
+  color: #fff;
+}
+
+#ph-intro .jumbotron h1,
+#ph-intro .jumbotron .lead-teaser {
+  text-shadow: 1px 1px 2px #000;
+}
+
+#ph-intro .jumbotron .lead-teaser {
+  margin-bottom: 1.5em;
+  font-size: 1.1em;
+}
+
+#ph-intro .jumbotron .lead-teaser p {
+  margin-bottom: 0.1em;
+}
+
+#ph-intro .jumbotron .lead-buttons .btn {
+  border-radius: 0;
+  border-width: 3px;
+  border-color: #fff;
+  color: #fff;
+  display: block;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+#ph-intro .jumbotron .lead-buttons .btn:hover {
+  background: #fff;
+  color: #020f23;
+}
+
+@media (min-width: 576px) {
+  #ph-intro .jumbotron .lead-buttons .btn {
+    display: inline-block;
+    margin-bottom: 0;
+    width: auto;
+  }
+
+  #ph-intro .jumbotron .lead-buttons :first-child {
+    margin-right: 0.5em;
+  }
+}

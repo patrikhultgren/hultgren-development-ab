@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Karma:400|Karma');
+
+body {
+  font-family: 'sofiapro-light', sans-serif, Arial, Verdana;
+  background-repeat: no-repeat;
+  color: #303030;
+  background-color: #565656;
+  background-color: #3a3a3a;
+  font-size: 1.1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+h1 {
+  font-family: Karma, sans-serif, Arial, Verdana;
+  font-weight: 400;
+  font-size: 2em !important;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 4em !important;
+  }
+}
+
+h2 {
+  font-family: Karma, sans-serif, Arial, Verdana;
+  font-family: 'sofiapro-light';
+  font-size: 2em;
+}
+
+@media (min-width: 576px) {
+  h2 {
+    font-size: 2.5em;
+  }
+}
+
+button:focus {
+  outline: none;
+}
+
+.header-wrapper {
+  min-height: 520px;
+  background-image: url('../images/lights-fuzzy.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 576px) {
+  .header-wrapper {
+    min-height: 580px;
+  }
+}
