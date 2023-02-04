@@ -10,7 +10,7 @@ const Intro = () => (
           <h1 className="display-3">
             Vill du ha hjälp med utvecklingen av din webbplats?
           </h1>
-          <div class="lead-teaser">
+          <div className="lead-teaser">
             <div>
               <p>Ta gärna kontakt med mig.</p>
               <p>Patrik Hultgren, frilansande webbutvecklare i Stockholm.</p>

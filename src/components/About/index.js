@@ -1,5 +1,5 @@
 import React from 'react'
-import image from 'images/patrik-hultgren.png'
+import image from 'media/patrik-hultgren.png'
 
 import './style.css'
 
@@ -18,7 +18,7 @@ export default function About() {
           </div>
           <div className="col-lg-9">
             <h2 id="om">Om mig</h2>
-            <p class="lead">
+            <p className="lead">
               Sedan 2006 har jag arbetat som IT-konsult inom webb och har
               erfarenhet av många olika projekt och tekniker. Jag har jobbat med
               bokhandel, trav &amp; spel, tidningar, industri och politik. För

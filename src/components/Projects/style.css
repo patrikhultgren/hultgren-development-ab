@@ -1,0 +1,122 @@
+#ph-projects {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #fff;
+  color: #303030;
+}
+
+#ph-projects h2#projekt {
+  text-align: center;
+  display: block;
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#ph-projects p.lead {
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+#ph-projects .row p {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.project-col {
+  margin-bottom: 1em;
+}
+
+@media (min-width: 576px) {
+  #ph-projects .row p {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+
+  .project-col {
+    margin-bottom: 0;
+  }
+}
+
+a.project-link {
+  display: block;
+  height: 60px;
+  text-align: center;
+  display: block;
+  margin-bottom: 1em;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+}
+
+a.project-link:hover {
+  background: #e8e8e8;
+  border: 1px solid #c3c3c3;
+}
+
+.project-bokus a {
+  padding-top: 0.7em;
+}
+
+.project-bokus a img {
+  max-width: 115px;
+}
+
+.project-manufacturingguide a {
+  padding-top: 0.8em;
+}
+
+.project-manufacturingguide a img {
+  max-width: 250px;
+}
+
+.project-travronden-spel a {
+  padding-top: 0.7em;
+}
+
+.project-travronden-spel a img {
+  max-width: 275px;
+}
+
+.project-byggindustrin a {
+  padding-top: 0.7em;
+}
+
+.project-byggindustrin a img {
+  max-width: 160px;
+}
+
+.project-storavinster a {
+  padding-top: 0.4em;
+}
+
+.project-storavinster a img {
+  max-height: 40px;
+}
+
+.project-miljopartiet a {
+  padding-top: 0.8em;
+}
+
+.project-miljopartiet a img {
+  max-width: 200px;
+}
+
+.project-travronden a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-spelvarde a {
+  padding-top: 0.8em;
+}
+
+.project-spelvarde a img {
+  max-width: 200px;
+}

@@ -42,8 +42,8 @@ export default function Navbar() {
           <div />
           <div className={navbarClassName}>
             <ul className="navbar-nav mr-auto">
-              {menuitems.map((menuitem) => (
-                <li className="nav-item" key={menuitem.id}>
+              {menuitems.map((menuitem, index) => (
+                <li className="nav-item" key={index}>
                   <a href={menuitem.link} className="nav-link">
                     {menuitem.title}
                   </a>
