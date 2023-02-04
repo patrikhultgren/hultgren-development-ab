@@ -32,28 +32,21 @@ export default function Navbar() {
         <div className="container">
           <div />
           <button
-            className={hamburgerClassName}
             type="button"
-            data-toggle="collapse"
-            data-target="#navbar-supported-content"
-            aria-controls="navbar-supported-content"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            className={hamburgerClassName}
             onClick={onMenuToggle}
           >
             <span className="hamburger__top-bun" />
             <span className="hamburger__bottom-bun" />
           </button>
           <div />
-          <div className={navbarClassName} id="navbar-supported-content">
+          <div className={navbarClassName}>
             <ul className="navbar-nav mr-auto">
               {menuitems.map(menuitem => (
                 <li className="nav-item" key={menuitem.id}>
-                  {menuitem.link && (
-                    <a href={menuitem.link} className="nav-link">
-                      {menuitem.title}
-                    </a>
-                  )}
+                  <a href={menuitem.link} className="nav-link">
+                    {menuitem.title}
+                  </a>
                 </li>
               ))}
             </ul>
