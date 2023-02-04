@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hultgren-development-ab/static/css/main.757e3301.css",
-    "main.js": "/hultgren-development-ab/static/js/main.c6c107a0.js",
+    "main.js": "/hultgren-development-ab/static/js/main.86287326.js",
     "static/media/lights-fuzzy.jpg": "/hultgren-development-ab/static/media/lights-fuzzy.110ad4ea3cc128f19a02.jpg",
     "static/media/fa-brands-400.svg": "/hultgren-development-ab/static/media/fa-brands-400.a58f7f4cdcc622e4db52.svg",
     "static/media/fa-solid-900.svg": "/hultgren-development-ab/static/media/fa-solid-900.807e237e9b50354cb9c4.svg",
@@ -23,10 +23,10 @@
     "static/media/fa-regular-400.woff2": "/hultgren-development-ab/static/media/fa-regular-400.4e988e05601bf81ee2b0.woff2",
     "index.html": "/hultgren-development-ab/index.html",
     "main.757e3301.css.map": "/hultgren-development-ab/static/css/main.757e3301.css.map",
-    "main.c6c107a0.js.map": "/hultgren-development-ab/static/js/main.c6c107a0.js.map"
+    "main.86287326.js.map": "/hultgren-development-ab/static/js/main.86287326.js.map"
   },
   "entrypoints": [
     "static/css/main.757e3301.css",
-    "static/js/main.c6c107a0.js"
+    "static/js/main.86287326.js"
   ]
 }
