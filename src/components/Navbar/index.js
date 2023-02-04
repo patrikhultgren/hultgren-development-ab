@@ -1,4 +1,5 @@
 import React, { useState, useCallback, useMemo } from 'react'
+import { HashLink } from 'react-router-hash-link'
 import classNames from 'classnames'
 import { menuitems } from 'data'
 
@@ -44,9 +45,9 @@ export default function Navbar() {
             <ul className="navbar-nav mr-auto">
               {menuitems.map((menuitem, index) => (
                 <li className="nav-item" key={index}>
-                  <a href={menuitem.link} className="nav-link">
+                  <HashLink to={menuitem.link} className="nav-link">
                     {menuitem.title}
-                  </a>
+                  </HashLink>
                 </li>
               ))}
             </ul>
