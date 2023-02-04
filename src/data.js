@@ -3,6 +3,7 @@ import ManufacturingGuideIcon from 'primitives/Icon/ManufacturingGuide'
 import BokusIcon from 'primitives/Icon/Bokus'
 import SpelvardeIcon from 'primitives/Icon/Spelvarde'
 import AkademibokhandelnIcon from 'primitives/Icon/Akademibokhandeln'
+import PortalenIcon from 'primitives/Icon/Portalen'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },
@@ -14,6 +15,12 @@ export const projects = [
     logo: <AkademibokhandelnIcon />,
     teaser:
       'På Akademibokhandeln har jag lett frontent-teamet med att sida för sida byta ut dagens sajt mot en Next.js applikation.',
+    link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
+  },
+  {
+    logo: <PortalenIcon />,
+    teaser:
+      'För Bokhandelsgruppen har jag byggt en applikation kallad Portalen. Den sköter inleveranser i Akademibokhandelns butiker.',
     link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
   },
   {

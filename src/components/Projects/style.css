@@ -51,7 +51,6 @@ a.project-logo-link {
   border-radius: 0;
   border: 1px solid #e8e8e8;
   background: #fff;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,4 +59,5 @@ a.project-logo-link {
 a.project-logo-link:hover {
   background: #e8e8e8;
   border: 1px solid #c3c3c3;
+  text-decoration: none;
 }
