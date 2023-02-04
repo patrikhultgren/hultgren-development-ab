@@ -20,13 +20,12 @@ export const projects = [
   {
     logo: <PortalenLogo />,
     teaser:
-      'För Bokhandelsgruppen har jag byggt en applikation kallad Portalen. Den sköter inleveranser i Akademibokhandelns butiker.',
+      'För Bokhandelsgruppen har jag byggt en React app kallad Portalen. Den sköter t.ex. inleveranser i Akademibokhandelns butiker.',
   },
   {
     logo: <TravrondenLogo />,
     teaser:
       'För Travronden har jag jobbat med ett React baserat CMS som heter TR Content. Systemet används av många sajter inom TR Media.',
-    link: 'https://www.travronden.se',
   },
   {
     logo: <SpelvardeLogo />,
