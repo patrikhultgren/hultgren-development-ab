@@ -23,7 +23,7 @@
 }
 
 #ph-intro .jumbotron .lead-teaser {
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   font-size: 1.1em;
 }
 
@@ -32,12 +32,12 @@
 }
 
 #ph-intro .jumbotron .lead-buttons .btn {
+  margin-top: 0.5rem;
   border-radius: 0;
   border-width: 3px;
   border-color: #fff;
   color: #fff;
   display: block;
-  margin-bottom: 0.5em;
   width: 100%;
 }
 
@@ -49,7 +49,6 @@
 @media (min-width: 576px) {
   #ph-intro .jumbotron .lead-buttons .btn {
     display: inline-block;
-    margin-bottom: 0;
     width: auto;
   }
 

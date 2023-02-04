@@ -22,7 +22,7 @@ const Intro = () => (
               href="mailto:info@patrikhultgren.se"
               role="button"
             >
-              Mejla
+              Mejla info@patrikhultgren.se
             </a>
             <a
               className="btn btn-outline-primary btn-lg ph-phone-number ph-phone-number-1"
