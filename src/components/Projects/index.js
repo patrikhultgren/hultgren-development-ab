@@ -13,14 +13,7 @@ export default function Projects() {
         <p className="lead">Nedan är ett urval av projekt</p>
         <div id="ph-projects-content" className="row">
           {projects.map((project, index) => (
-            <div
-              className={classNames(
-                'col-md-6',
-                'project-col',
-                `project-${project.className}`
-              )}
-              key={index}
-            >
+            <div className={classNames('col-md-6', 'project-col')} key={index}>
               <ConditionalWrapper
                 condition={Boolean(project.link)}
                 wrapperTrue={(children) => (
@@ -28,13 +21,13 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="project-link"
+                    className="project-logo-link"
                   >
                     {children}
                   </a>
                 )}
                 wrapperFalse={(children) => (
-                  <div className="project">{children}</div>
+                  <div className="project-logo">{children}</div>
                 )}
               >
                 {project.logo}

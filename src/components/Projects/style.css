@@ -38,8 +38,7 @@
   }
 }
 
-a.project-link {
-  display: block;
+a.project-logo-link {
   height: 60px;
   text-align: center;
   display: block;
@@ -52,71 +51,13 @@ a.project-link {
   border-radius: 0;
   border: 1px solid #e8e8e8;
   background: #fff;
-}
 
-a.project-link:hover {
-  background: #e8e8e8;
-  border: 1px solid #c3c3c3;
-}
-
-.project-bokus a {
-  padding-top: 0.7em;
-}
-
-.project-bokus a img {
-  max-width: 115px;
-}
-
-.project-manufacturingguide a {
-  padding-top: 0.8em;
-}
-
-.project-manufacturingguide a img {
-  max-width: 250px;
-}
-
-.project-travronden-spel a {
-  padding-top: 0.7em;
-}
-
-.project-travronden-spel a img {
-  max-width: 275px;
-}
-
-.project-byggindustrin a {
-  padding-top: 0.7em;
-}
-
-.project-byggindustrin a img {
-  max-width: 160px;
-}
-
-.project-storavinster a {
-  padding-top: 0.4em;
-}
-
-.project-storavinster a img {
-  max-height: 40px;
-}
-
-.project-miljopartiet a {
-  padding-top: 0.8em;
-}
-
-.project-miljopartiet a img {
-  max-width: 200px;
-}
-
-.project-travronden a {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.project-spelvarde a {
-  padding-top: 0.8em;
-}
-
-.project-spelvarde a img {
-  max-width: 200px;
+a.project-logo-link:hover {
+  background: #e8e8e8;
+  border: 1px solid #c3c3c3;
 }
