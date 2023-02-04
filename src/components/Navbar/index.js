@@ -5,24 +5,24 @@ import { menuitems } from '../../data'
 import './style.css'
 
 export default function Navbar() {
-  const [toggle, setToggle] = useState(false)
+  const [show, setShow] = useState(false)
 
   const hamburgerClassName = useMemo(
     () => classNames(
       'navbar-toggler',
       'hamburger',
-      toggle ? 'hamburger-open' : 'collapsed'
-  ), [toggle])
+      show ? 'hamburger-open' : 'collapsed'
+  ), [show])
 
   const navbarClassName = useMemo(
     () => classNames(
       'navbar-collapse',
       'collapse',
-      {'show' : toggle }
-  ), [toggle])
+      {'show' : show }
+  ), [show])
 
   const onMenuToggle = useCallback(
-    () => { setToggle(prev => !prev) },
+    () => { setShow(prev => !prev) },
     []
   )
 
