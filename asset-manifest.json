@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6346209e.css",
-    "main.js": "/static/js/main.f8ecaa44.js",
+    "main.css": "/static/css/main.52803ffd.css",
+    "main.js": "/static/js/main.5b896f04.js",
     "static/media/lights-fuzzy.jpg": "/static/media/lights-fuzzy.110ad4ea3cc128f19a02.jpg",
     "static/media/patrik-hultgren.png": "/static/media/patrik-hultgren.6c81d33c3db6ab32adf4.png",
     "static/media/sofiapro-light-webfont.woff": "/static/media/sofiapro-light-webfont.7cd8c0a2832854783e72.woff",
     "static/media/sofiapro-light-webfont.woff2": "/static/media/sofiapro-light-webfont.6272bcf746ba32eb968e.woff2",
     "index.html": "/index.html",
-    "main.6346209e.css.map": "/static/css/main.6346209e.css.map",
-    "main.f8ecaa44.js.map": "/static/js/main.f8ecaa44.js.map"
+    "main.52803ffd.css.map": "/static/css/main.52803ffd.css.map",
+    "main.5b896f04.js.map": "/static/js/main.5b896f04.js.map"
   },
   "entrypoints": [
-    "static/css/main.6346209e.css",
-    "static/js/main.f8ecaa44.js"
+    "static/css/main.52803ffd.css",
+    "static/js/main.5b896f04.js"
   ]
 }
