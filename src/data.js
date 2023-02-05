@@ -44,8 +44,8 @@ export const projects = [
           För Bokhandelsgruppen har jag byggt en intern React app kallad
           Portalen. Det är en app som anställda inom Bokhandelsgruppen använder
           för olika ändamål, t.ex. att hantera Akademibokhandelns butiker och
-          inleveranser. Portalen är ett gränssnitt mellan egenutvecklade och
-          köpta mikrotjänster i Bokhandelsgruppen.
+          inleveranser. Portalen är ett gränssnitt som behövs för egenutvecklade
+          mikrotjänster och integrationer.
         </p>
         {/* <p>
           Appen är byggd och designad av mig och jag har utbildat andra
