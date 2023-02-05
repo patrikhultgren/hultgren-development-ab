@@ -5,17 +5,15 @@ import './style.css'
 
 export default function Footer() {
   return (
-    <footer id="ph-footer">
+    <footer className="footer">
       <div className="container">
         <div className="row">
-          <div id="footer-col-1" className="footer-col col-md-6 col-lg-3">
+          <div id="footer__col-1" className="footer__col col-md-6 col-lg-3">
             <HultgrenDevelopmentLogo />
           </div>
-          <div id="footer-col-2" className="footer-col col-md-6 col-lg-3">
+          <div id="footer__col-2" className="footer__col col-md-6 col-lg-3">
             <address>
-              <span className="company-name footer-header">
-                Hultgren Development AB
-              </span>
+              <span className="footer-header">Hultgren Development AB</span>
               <br />
               Stora Sköndals Väg 27
               <br />
@@ -23,7 +21,7 @@ export default function Footer() {
               <br />
             </address>
           </div>
-          <div id="footer-col-3" className="footer-col col-md-6 col-lg-3">
+          <div id="footer__col-3" className="footer__col col-md-6 col-lg-3">
             <span className="footer-header">Kontakt</span>
             <br />
             <a
@@ -32,15 +30,9 @@ export default function Footer() {
             >
               0708-445341
             </a>
-            <a
-              href="mailto:info@patrikhultgren.se"
-              id="ph-mail-footer"
-              className="ph-mail-link"
-            >
-              info@patrikhultgren.se
-            </a>
+            <a href="mailto:info@patrikhultgren.se">info@patrikhultgren.se</a>
           </div>
-          <div id="footer-col-4" className="footer-col col-md-6 col-lg-3">
+          <div id="footer__col-4" className="footer__col col-md-6 col-lg-3">
             <span className="footer-header">&nbsp;</span>
             <br />
             <a
