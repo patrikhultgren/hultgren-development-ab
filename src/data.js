@@ -19,16 +19,16 @@ export const projects = [
           På Akademibokhandeln har jag lett frontent-teamet med att sida för
           sida byta ut dagens sajt mot en Next.js applikation. Som en besökare
           märker man inte när man förflyttas mellan Next.js appen och den gamla
-          teknologin. Alla sidor är inte utbytta än, men på så sätt kan man byta
-          införa ny teknologi utan att behöva ersätta allting på en gång.
+          sajten. Alla sidor är inte utbytta än, men på så sätt kan man införa
+          ny teknologi utan att behöva ersätta allting på en gång.
         </p>
-        <p>
+        {/* <p>
           För att sprida kunskap mellan projektmedlemmar och öka kvalitén har vi
           använt oss av pull requests.
-        </p>
-        <p>I projektet har vi arbetat med projektledningsmetoden Scrum.</p>
+        </p> */}
+        {/* <p>I projektet har vi arbetat med projektledningsmetoden Scrum.</p> */}
         <p>
-          Till Next.js använder vi oss av tekniker som Typescript, Tailwind,
+          Till Next.js använder jag mig av tekniker som Typescript, Tailwind,
           Redux saga och Redis.
         </p>
         <p>Appen är skalbar och driftas i Kubernetes.</p>
@@ -49,11 +49,11 @@ export const projects = [
           mikrotjänster. Portalen är ett gränssnitt som ett nav mellen
           egenutvecklade och köpta tjänster.
         </p>
-        <p>
-          Appen är byggt och designad av mig och jag har lett utbildning av
-          andra utvecklare i den.
-        </p>
-        <p>Portalen är byggd med funktionella komponenter och hooks.</p>
+        {/* <p>
+          Appen är byggd och designad av mig och jag har utbildat andra
+          utvecklare i den.
+        </p> */}
+        {/* <p>Portalen är byggd med funktionella komponenter och hooks.</p> */}
         <p>
           Drift av Portalen sker i Kubernetes och driftsättning hanteras via
           Circle CI.
