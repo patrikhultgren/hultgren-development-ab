@@ -1,32 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c5c1d31.css",
-    "main.js": "/static/js/main.fe657e46.js",
+    "main.css": "/static/css/main.6346209e.css",
+    "main.js": "/static/js/main.f8ecaa44.js",
     "static/media/lights-fuzzy.jpg": "/static/media/lights-fuzzy.110ad4ea3cc128f19a02.jpg",
-    "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.a58f7f4cdcc622e4db52.svg",
-    "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.807e237e9b50354cb9c4.svg",
-    "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.cbb5c1d6ad8d403dbdab.svg",
-    "static/media/fa-solid-900.eot": "/static/media/fa-solid-900.5e5c6e52c3289c071206.eot",
-    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.ea6ccb0dc20e72ccb923.ttf",
-    "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.6ebfb17a95aa295577ec.eot",
-    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.a7bf6b7759f86ac8ab22.ttf",
-    "static/media/fa-brands-400.woff": "/static/media/fa-brands-400.46142272595f54bbf2a8.woff",
     "static/media/patrik-hultgren.png": "/static/media/patrik-hultgren.6c81d33c3db6ab32adf4.png",
-    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.6563814eb8bcc493b26b.woff2",
-    "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.0fc3f8c7cad2187d9207.woff",
-    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.ea995b6e6d0be9cd4319.woff2",
     "static/media/sofiapro-light-webfont.woff": "/static/media/sofiapro-light-webfont.7cd8c0a2832854783e72.woff",
-    "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.2a7d0e44341b33eeecc9.eot",
-    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.c9b43a4f514ced1ea620.ttf",
     "static/media/sofiapro-light-webfont.woff2": "/static/media/sofiapro-light-webfont.6272bcf746ba32eb968e.woff2",
-    "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.9532d08bbce0c72d8138.woff",
-    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.4e988e05601bf81ee2b0.woff2",
     "index.html": "/index.html",
-    "main.8c5c1d31.css.map": "/static/css/main.8c5c1d31.css.map",
-    "main.fe657e46.js.map": "/static/js/main.fe657e46.js.map"
+    "main.6346209e.css.map": "/static/css/main.6346209e.css.map",
+    "main.f8ecaa44.js.map": "/static/js/main.f8ecaa44.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c5c1d31.css",
-    "static/js/main.fe657e46.js"
+    "static/css/main.6346209e.css",
+    "static/js/main.f8ecaa44.js"
   ]
 }
