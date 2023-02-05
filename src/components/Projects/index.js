@@ -7,13 +7,16 @@ import './style.css'
 
 export default function Projects() {
   return (
-    <article id="ph-projects">
+    <article className="projects" id="projects">
       <div className="container">
-        <h2 id="projekt">Projekt</h2>
-        <p className="lead">Nedan är ett urval av projekt</p>
-        <div id="ph-projects-content" className="row">
+        <h2>Projekt</h2>
+        <p className="projects__lead">Nedan är ett urval av projekt</p>
+        <div className="row">
           {projects.map((project, index) => (
-            <div className={classNames('col-md-6', 'project-col')} key={index}>
+            <div
+              className={classNames('projects__project', 'col-md-6', 'mt-3')}
+              key={index}
+            >
               <ConditionalWrapper
                 condition={Boolean(project.link)}
                 wrapperTrue={(children) => (
@@ -21,13 +24,13 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="project-logo-link"
+                    className="projects__project__logo"
                   >
                     {children}
                   </a>
                 )}
                 wrapperFalse={(children) => (
-                  <div className="project-logo">{children}</div>
+                  <div className="projects__project__logo">{children}</div>
                 )}
               >
                 {project.logo}

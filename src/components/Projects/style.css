@@ -1,11 +1,11 @@
-#ph-projects {
+#projects {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #fff;
   color: #303030;
 }
 
-#ph-projects h2#projekt {
+#projects h2 {
   text-align: center;
   display: block;
   max-width: 150px;
@@ -13,29 +13,24 @@
   margin-right: auto;
 }
 
-#ph-projects p.lead {
+.projects__lead {
   text-align: center;
   margin-bottom: 1rem;
 }
 
-#ph-projects .row p {
+#projects .row p {
   padding-left: 0;
   padding-right: 0;
 }
 
-.project-col {
-  margin-top: 1rem;
-}
-
 @media (min-width: 576px) {
-  #ph-projects .row p {
+  #projects .row p {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 }
 
-a.project-logo-link,
-.project-logo {
+.projects__project__logo {
   height: 60px;
   text-align: center;
   display: block;
@@ -53,8 +48,7 @@ a.project-logo-link,
   justify-content: center;
 }
 
-a.project-logo-link:hover,
-.project-logo:hover {
+.projects__project__logo:hover {
   background: #e8e8e8;
   border: 1px solid #c3c3c3;
   text-decoration: none;
