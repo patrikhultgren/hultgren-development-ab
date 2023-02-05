@@ -7,7 +7,7 @@ import './style.css'
 
 export default function Projects() {
   return (
-    <article className="projects" id="projects">
+    <article className="projects" id="projekt">
       <div className="container">
         <h2>Projekt</h2>
         <p className="projects__lead">Nedan är ett urval av projekt</p>

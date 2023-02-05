@@ -1,11 +1,11 @@
-#projects {
+.projects {
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: #fff;
   color: #303030;
 }
 
-#projects h2 {
+.projects h2 {
   text-align: center;
   display: block;
   max-width: 150px;
@@ -18,13 +18,13 @@
   margin-bottom: 1rem;
 }
 
-#projects .row p {
+.projects .row p {
   padding-left: 0;
   padding-right: 0;
 }
 
 @media (min-width: 576px) {
-  #projects .row p {
+  .projects .row p {
     padding-left: 2rem;
     padding-right: 2rem;
   }

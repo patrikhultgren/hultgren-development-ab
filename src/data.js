@@ -1,7 +1,7 @@
 import TravrondenLogo from 'primitives/Logo/Travronden'
-import ManufacturingGuideLogo from 'primitives/Logo/ManufacturingGuide'
+// import ManufacturingGuideLogo from 'primitives/Logo/ManufacturingGuide'
 import BokusLogo from 'primitives/Logo/Bokus'
-import SpelvardeLogo from 'primitives/Logo/Spelvarde'
+// import SpelvardeLogo from 'primitives/Logo/Spelvarde'
 import AkademibokhandelnLogo from 'primitives/Logo/Akademibokhandeln'
 import PortalenLogo from 'primitives/Logo/Portalen'
 
