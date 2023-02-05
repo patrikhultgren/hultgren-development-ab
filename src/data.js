@@ -28,8 +28,8 @@ export const projects = [
         </p> */}
         {/* <p>I projektet har vi arbetat med projektledningsmetoden Scrum.</p> */}
         <p>
-          Till Next.js använder jag mig av tekniker som Typescript, Tailwind,
-          Redux saga och Redis.
+          I appen använder jag mig av tekniker som Typescript, Tailwind, Redux
+          saga och Redis.
         </p>
         <p>Appen är skalbar och driftas i Kubernetes.</p>
       </>
@@ -42,12 +42,12 @@ export const projects = [
       <>
         <p>
           För Bokhandelsgruppen har jag byggt en intern React app kallad
-          Portalen. Det är en applikation som anställda inom Bokhandelsgruppen
-          använder. Men den kan de exempelvis hantera Akademibokhandelns butiker
-          och sköta inleveranser. Bokhandelsgruppen använder sig av
-          mikrotjänstarkitektur och Portalen kommunicerar via dessa
-          mikrotjänster. Portalen är ett gränssnitt som ett nav mellen
-          egenutvecklade och köpta tjänster.
+          Portalen. Det är en app som anställda inom Bokhandelsgruppen använder
+          för olika ändamål som t.ex. att hantera Akademibokhandelns butiker och
+          inleveranser. Bokhandelsgruppen bygger sina system med
+          mikrotjänstarkitektur och därmed kommunicerar Portalen via
+          mikrotjänster. Portalen är ett gränssnitt mellan egenutvecklade och
+          köpta tjänster i Bokhandelsgruppen.
         </p>
         {/* <p>
           Appen är byggd och designad av mig och jag har utbildat andra
@@ -55,8 +55,7 @@ export const projects = [
         </p> */}
         {/* <p>Portalen är byggd med funktionella komponenter och hooks.</p> */}
         <p>
-          Drift av Portalen sker i Kubernetes och driftsättning hanteras via
-          Circle CI.
+          Drift av Portalen sker i Kubernetes och driftsättning via Circle CI.
         </p>
       </>
     ),
