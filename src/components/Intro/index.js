@@ -24,7 +24,7 @@ export default function Intro() {
               className="border-[3px] px-4 py-2.5 text-lg hover:bg-white hover:text-black w-full md:auto mt-2 md:mt-0 transition ease-in-out"
               href="tel:0708-445341"
             >
-              eller ring 0708-445341
+              eller ring 0708-44 53 41
             </a>
           </div>
         </div>
