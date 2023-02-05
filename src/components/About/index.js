@@ -1,10 +1,11 @@
 import React from 'react'
 import image from 'media/patrik-hultgren.png'
+import Container from 'primitives/Container'
 
 export default function About() {
   return (
     <main className="about">
-      <div className="container">
+      <Container>
         <div className="row align-items-center">
           <div className="col-lg-3 about__patrik">
             <img
@@ -38,7 +39,7 @@ export default function About() {
             </p>
           </div>
         </div>
-      </div>
+      </Container>
     </main>
   )
 }
