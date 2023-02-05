@@ -47,7 +47,6 @@ button:focus {
 
 .header-background {
   min-height: 520px;
-  background-image: url('../media/lights-fuzzy.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

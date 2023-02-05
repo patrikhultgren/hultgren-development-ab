@@ -8,7 +8,7 @@ import Footer from 'components/Footer'
 export default function App() {
   return (
     <Router>
-      <div className="header-background">
+      <div className="sm:min-h-[520px] bg-center bg-no-repeat bg-cover bg-[url('/src/media/lights-fuzzy.jpg')]">
         <Navbar />
         <Intro />
       </div>
