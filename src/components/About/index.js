@@ -31,8 +31,8 @@ export default function About() {
               användarvänliga webbapplikationer.
             </p>
             <p className="text-lg mt-4">
-              Jag har en filosofi kandidatexamen i digital medieteknik som jag
-              läst på Blekinge Tekniska Högskola.
+              Jag har en kandidatexamen i digital medieteknik som jag läst på
+              Blekinge Tekniska Högskola.
             </p>
           </div>
         </div>
