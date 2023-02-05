@@ -31,6 +31,7 @@ export default function Projects() {
                 )}
               >
                 {project.logo}
+                <span className="sr-only">{project.title}</span>
               </ConditionalWrapper>
               <div className="[&>p]:mt-4 md:mx-8">{project.teaser}</div>
             </div>
