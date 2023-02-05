@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=Karma:400|Karma');
+
+@font-face {
+  font-family: 'sofiapro-light';
+  src: url('../webfonts/sofiapro/sofiapro-light-webfont.woff2') format('woff2'),
+    url('../webfonts/sofiapro/sofiapro-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'sofiapro-light', sans-serif, Arial, Verdana;
+  color: #303030;
+  background-color: #3a3a3a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  /* font-size: 1.1rem; */
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 2px #000;
+}
+
 /*
 @import url('https://fonts.googleapis.com/css?family=Karma:400|Karma');
 
