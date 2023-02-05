@@ -1,4 +1,4 @@
-#ph-intro .jumbotron {
+.intro .jumbotron {
   background-color: inherit;
   background-size: cover;
   border-radius: 0;
@@ -6,32 +6,32 @@
   margin-bottom: 0;
 }
 
-#ph-intro .jumbotron .jumbotron-inner {
+.intro .jumbotron .jumbotron-inner {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 
-#ph-intro .jumbotron h1,
-#ph-intro .jumbotron p {
+.intro .jumbotron h1,
+.intro .jumbotron p {
   color: #fff;
 }
 
-#ph-intro .jumbotron h1,
-#ph-intro .jumbotron .lead-teaser {
+.intro .jumbotron h1,
+.intro .jumbotron .lead-teaser {
   text-shadow: 1px 1px 2px #000;
 }
 
-#ph-intro .jumbotron .lead-teaser {
+.intro .jumbotron .lead-teaser {
   margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 
-#ph-intro .jumbotron .lead-teaser p {
+.intro .jumbotron .lead-teaser p {
   margin-bottom: 0.1rem;
 }
 
-#ph-intro .jumbotron .lead-buttons .btn {
+.intro .jumbotron .lead-buttons .btn {
   margin-top: 0.5rem;
   border-radius: 0;
   border-width: 3px;
@@ -41,18 +41,18 @@
   width: 100%;
 }
 
-#ph-intro .jumbotron .lead-buttons .btn:hover {
+.intro .jumbotron .lead-buttons .btn:hover {
   background: #fff;
   color: #020f23;
 }
 
 @media (min-width: 576px) {
-  #ph-intro .jumbotron .lead-buttons .btn {
+  .intro .jumbotron .lead-buttons .btn {
     display: inline-block;
     width: auto;
   }
 
-  #ph-intro .jumbotron .lead-buttons :first-child {
+  .intro .jumbotron .lead-buttons :first-child {
     margin-right: 0.5rem;
   }
 }

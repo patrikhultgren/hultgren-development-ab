@@ -3,7 +3,7 @@ import React from 'react'
 import './style.css'
 
 const Intro = () => (
-  <article id="ph-intro">
+  <article className="intro">
     <div className="jumbotron">
       <div className="container">
         <div className="jumbotron-inner">
