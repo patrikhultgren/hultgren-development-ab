@@ -23,12 +23,12 @@
 }
 
 #ph-intro .jumbotron .lead-teaser {
-  margin-bottom: 1em;
-  font-size: 1.1em;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 #ph-intro .jumbotron .lead-teaser p {
-  margin-bottom: 0.1em;
+  margin-bottom: 0.1rem;
 }
 
 #ph-intro .jumbotron .lead-buttons .btn {
@@ -53,6 +53,6 @@
   }
 
   #ph-intro .jumbotron .lead-buttons :first-child {
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
   }
 }

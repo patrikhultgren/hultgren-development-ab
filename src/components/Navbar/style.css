@@ -14,10 +14,10 @@ a.nav-link:hover {
 
 @media (min-width: 992px) {
   ul.navbar-nav :first-child {
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
   }
   ul.navbar-nav :nth-child(2) {
-    margin-right: 0.5em;
+    margin-right: 0.5rem;
   }
 }
 
