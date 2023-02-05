@@ -28,7 +28,7 @@ export default function Navbar() {
   }, [])
 
   return (
-    <header id="ph-navbar">
+    <header className="header">
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container">
           <div />
