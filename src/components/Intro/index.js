@@ -13,7 +13,7 @@ export default function Intro() {
             <p>Ta gärna kontakt med mig.</p>
             <p>Patrik Hultgren, frilansande webbutvecklare i Stockholm.</p>
           </div>
-          <div className="mt-6 flex flex-col md:flex-row justify-center">
+          <div className="mt-6 flex flex-col md:flex-row justify-center md:max-w-[600px] md:mx-auto">
             <a
               className="border-[3px] px-4 py-2.5 text-lg hover:bg-white hover:text-black mr-2 w-full md:auto"
               href="mailto:info@patrikhultgren.se"
