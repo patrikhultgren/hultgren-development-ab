@@ -32,7 +32,7 @@ export default function Projects() {
               >
                 {project.logo}
               </ConditionalWrapper>
-              <p>{project.teaser}</p>
+              {project.teaser}
             </div>
           ))}
         </div>
