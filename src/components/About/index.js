@@ -5,10 +5,10 @@ import './style.css'
 
 export default function About() {
   return (
-    <main id="ph-about">
+    <main className="about">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-3 col-patrik">
+          <div className="col-lg-3 about__patrik">
             <img
               src={image}
               id="patrik"

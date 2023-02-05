@@ -1,4 +1,4 @@
-#ph-about {
+.about {
   padding-top: 2rem;
   padding-bottom: 2rem;
   background-color: #ededed;
@@ -9,13 +9,13 @@
   transition: all 0.5s ease-in;
 }
 
-#ph-about .col-patrik {
+.about .about__patrik {
   text-align: center;
   margin-bottom: 1rem;
 }
 
 @media (min-width: 576px) {
-  #ph-about .col-patrik {
+  .about .about__patrik {
     margin-bottom: 0;
   }
 }
