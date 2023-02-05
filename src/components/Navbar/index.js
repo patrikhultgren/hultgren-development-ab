@@ -3,8 +3,6 @@ import { HashLink } from 'react-router-hash-link'
 import classNames from 'classnames'
 import { menuitems } from 'data'
 
-import './style.css'
-
 export default function Navbar() {
   const [show, setShow] = useState(false)
 

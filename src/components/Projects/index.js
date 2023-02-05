@@ -3,8 +3,6 @@ import classNames from 'classnames'
 import ConditionalWrapper from 'utils/ConditionalWrapper'
 import { projects } from 'data'
 
-import './style.css'
-
 export default function Projects() {
   return (
     <article className="projects" id="projekt">

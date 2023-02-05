@@ -1,8 +1,6 @@
 import React from 'react'
 import HultgrenDevelopmentLogo from 'primitives/Logo/HultgrenDevelopment'
 
-import './style.css'
-
 export default function Footer() {
   return (
     <footer className="footer">
