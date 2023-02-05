@@ -15,13 +15,13 @@ export default function Intro() {
           </div>
           <div className="mt-6 flex flex-col md:flex-row justify-center md:max-w-[600px] md:mx-auto">
             <a
-              className="border-[3px] px-4 py-2.5 text-lg hover:bg-white hover:text-black mr-2 w-full md:auto"
+              className="border-[3px] px-4 py-2.5 text-lg hover:bg-white hover:text-black mr-2 w-full md:auto transition ease-in-out"
               href="mailto:info@patrikhultgren.se"
             >
               Mejla info@patrikhultgren.se
             </a>
             <a
-              className="border-[3px] px-4 py-2.5 text-lg hover:bg-white hover:text-black w-full md:auto mt-2 md:mt-0"
+              className="border-[3px] px-4 py-2.5 text-lg hover:bg-white hover:text-black w-full md:auto mt-2 md:mt-0 transition ease-in-out"
               href="tel:0708-445341"
             >
               eller ring 0708-445341
