@@ -16,11 +16,11 @@ export const projects = [
     teaser: (
       <>
         <p>
-          På Akademibokhandeln har jag lett frontent-teamet med att sida för
-          sida byta ut dagens sajt mot en Next.js applikation. Som en besökare
-          märker man inte när man förflyttas mellan Next.js appen och den gamla
-          sajten. Alla sidor är inte utbytta än, men på så sätt kan man införa
-          ny teknologi utan att behöva ersätta allting på en gång.
+          På Akademibokhandeln har jag lett frontend-teamet med att sida för
+          sida byta ut dagens sajt mot en Next.js applikation. Som besökare
+          navigerar man sömlöst mellan Next appen och den gamla sajten. Alla
+          sidor är inte utbytta än, men på så sätt införs ny teknologi
+          inkrementellt.
         </p>
         {/* <p>
           För att sprida kunskap mellan projektmedlemmar och öka kvalitén har vi
@@ -43,11 +43,9 @@ export const projects = [
         <p>
           För Bokhandelsgruppen har jag byggt en intern React app kallad
           Portalen. Det är en app som anställda inom Bokhandelsgruppen använder
-          för olika ändamål som t.ex. att hantera Akademibokhandelns butiker och
-          inleveranser. Bokhandelsgruppen bygger sina system med
-          mikrotjänstarkitektur och därmed kommunicerar Portalen via
-          mikrotjänster. Portalen är ett gränssnitt mellan egenutvecklade och
-          köpta tjänster i Bokhandelsgruppen.
+          för olika ändamål, t.ex. att hantera Akademibokhandelns butiker och
+          inleveranser. Portalen är ett gränssnitt mellan egenutvecklade och
+          köpta mikrotjänster i Bokhandelsgruppen.
         </p>
         {/* <p>
           Appen är byggd och designad av mig och jag har utbildat andra
@@ -65,7 +63,8 @@ export const projects = [
     teaser: (
       <p>
         För Travronden har jag jobbat med ett React baserat CMS som heter TR
-        Content. Systemet används av många sajter inom TR Media.
+        Content. Systemet används av många sajter inom TR Media både för
+        publicering till webb och tidning.
       </p>
     ),
   },
@@ -73,8 +72,9 @@ export const projects = [
     logo: <BokusLogo />,
     teaser: (
       <p>
-        På Bokus var jag med och tog fram den nya kassan för privatpersoner. Den
-        är byggd i React och med Klarna som betalleverantör.
+        På Bokus var jag med och tog fram den nya checkouten för e-handeln.
+        Målet med projektet var att göra det smidigare för kunden att betala.
+        Checkouten är byggd i React och med Klarnas betallösning.
       </p>
     ),
   },
