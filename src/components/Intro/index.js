@@ -12,14 +12,17 @@ const Intro = () => (
           <p>Ta gärna kontakt med mig.</p>
           <p>Patrik Hultgren, frilansande webbutvecklare i Stockholm.</p>
         </div>
-        <div className="mt-12">
+        <div className="mt-6 flex justify-center">
           <a
-            className="border-[3px] px-4 py-3 text-lg"
+            className="border-[3px] px-4 py-3 text-lg hover:bg-white hover:text-black mr-2"
             href="mailto:info@patrikhultgren.se"
           >
             Mejla info@patrikhultgren.se
           </a>
-          <a className="border-[3px] px-4 py-3 text-lg" href="tel:0708-445341">
+          <a
+            className="border-[3px] px-4 py-3 text-lg hover:bg-white hover:text-black"
+            href="tel:0708-445341"
+          >
             eller ring 0708-445341
           </a>
         </div>

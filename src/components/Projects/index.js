@@ -5,7 +5,7 @@ import { projects } from 'data'
 
 export default function Projects() {
   return (
-    <article className="projects" id="projekt">
+    <article className="bg-white" id="projekt">
       <div className="container">
         <h2>Projekt</h2>
         <p className="projects__lead">Nedan är ett urval av projekt</p>

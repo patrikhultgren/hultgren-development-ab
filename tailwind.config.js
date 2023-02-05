@@ -2,9 +2,14 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
-    fontFamily: {
-      karma: 'Karma, sans-serif, Arial, Verdana',
+    extend: {
+      fontFamily: {
+        karma: 'Karma, sans-serif, Arial, Verdana',
+      },
+      colors: {
+        black: '#020f23',
+        beige: '#ededed',
+      },
     },
   },
   plugins: [],
