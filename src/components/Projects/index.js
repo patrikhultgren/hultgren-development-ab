@@ -1,20 +1,17 @@
 import React from 'react'
-import classNames from 'classnames'
 import ConditionalWrapper from 'utils/ConditionalWrapper'
+import Container from 'primitives/Container'
 import { projects } from 'data'
 
 export default function Projects() {
   return (
-    <article className="bg-white" id="projekt">
-      <div className="container">
-        <h2>Projekt</h2>
-        <p className="projects__lead">Nedan är ett urval av projekt</p>
-        <div className="row">
+    <article className="bg-white py-10" id="projekt">
+      <Container>
+        <h2 className="text-4xl text-center">Projekt</h2>
+        <p className="text-lg text-center">Nedan är ett urval av projekt</p>
+        <div className="grid gap-4 md:gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
-            <div
-              className={classNames('projects__project', 'col-md-6', 'mt-3')}
-              key={index}
-            >
+            <div className="mt-8" key={index}>
               <ConditionalWrapper
                 condition={Boolean(project.link)}
                 wrapperTrue={(children) => (
@@ -22,22 +19,24 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="projects__project__logo"
+                    className="h-16 border border-beige block flex items-center justify-center hover:bg-beige transition ease-in-out"
                   >
                     {children}
                   </a>
                 )}
                 wrapperFalse={(children) => (
-                  <div className="projects__project__logo">{children}</div>
+                  <div className="h-16 border border-beige block flex items-center justify-center hover:bg-beige transition ease-in-out">
+                    {children}
+                  </div>
                 )}
               >
                 {project.logo}
               </ConditionalWrapper>
-              {project.teaser}
+              <div className="[&>p]:mt-4 md:mx-8">{project.teaser}</div>
             </div>
           ))}
         </div>
-      </div>
+      </Container>
     </article>
   )
 }
