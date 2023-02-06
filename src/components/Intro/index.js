@@ -5,8 +5,8 @@ export default function Intro() {
   return (
     <article className="sm:min-h-[520px] bg-center bg-no-repeat bg-cover bg-[url('/src/media/lights-fuzzy.jpg')] text-white py-[60px] md:py-[80px]">
       <Container>
-        <div className="text-center max-w-[800px] mx-auto">
-          <h1 className="text-4xl md:text-7xl text-white font-karma font-light text-shadow">
+        <div className="text-center max-w-[800px] mx-auto text-shadow">
+          <h1 className="text-4xl md:text-7xl text-white font-karma font-light">
             Vill du ha hjälp med utvecklingen av din webbplats?
           </h1>
           <div className="text-lg mt-4">
