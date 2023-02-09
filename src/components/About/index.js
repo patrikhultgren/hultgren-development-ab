@@ -27,7 +27,7 @@ export default function About() {
               Jag är en driven frontend utvecklare och är van att hantera
               projekt från start till mål. Tekniker jag ofta använder är{' '}
               <strong>React</strong> och <strong>Next.js</strong>. Mitt fokus
-              går mot <strong>JavaScript</strong> då det möjligör
+              går mot <strong>JavaScript</strong> då det möjliggör
               användarvänliga webbapplikationer.
             </p>
             <p className="text-lg mt-4">
