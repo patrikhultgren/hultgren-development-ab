@@ -11,6 +11,7 @@ export default function HultgrenDevelopment() {
       xmlSpace="preserve"
       version="1.1"
     >
+      <title>Hultgren Development AB logotyp</title>
       <defs id="defs6">
         <clipPath id="clipPath24" clipPathUnits="userSpaceOnUse">
           <path

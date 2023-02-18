@@ -12,6 +12,7 @@ export default function Travronden() {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
     >
+      <title>Travronden logotyp</title>
       <g
         id="Group-15"
         stroke="none"

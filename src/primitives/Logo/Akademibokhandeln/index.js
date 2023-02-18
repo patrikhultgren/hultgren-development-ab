@@ -13,6 +13,7 @@ export default function Akademibokhandeln() {
       viewBox="0 0 1015.259 132.243"
       xmlSpace="preserve"
     >
+      <title>Akademibokhandelns logotyp</title>
       <g>
         <path
           fill="#231F20"

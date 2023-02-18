@@ -14,6 +14,7 @@ export default function ManufacturingGuide() {
       enableBackground="new 0 0 786.6 106.4"
       xmlSpace="preserve"
     >
+      <title>Manufacturing Guide logotyp</title>
       <g>
         <polyline
           fill="#282727"
