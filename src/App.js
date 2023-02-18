@@ -7,9 +7,11 @@ import Footer from 'components/Footer'
 export default function App() {
   return (
     <Router>
-      <Intro />
-      <About />
-      <Projects />
+      <main role="main">
+        <Intro />
+        <About />
+        <Projects />
+      </main>
       <Footer />
     </Router>
   )

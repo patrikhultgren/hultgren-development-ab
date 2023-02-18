@@ -6,7 +6,7 @@ import LinkedInIcon from 'primitives/Logo/LinkedIn'
 
 export default function Footer() {
   return (
-    <footer className="text-white py-16">
+    <footer role="contentinfo" className="text-white py-16">
       <Container>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4 xl:gap-4">
           <div className="">
