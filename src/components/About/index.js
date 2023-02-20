@@ -4,18 +4,11 @@ import Container from 'primitives/Container'
 
 export default function About() {
   return (
-    <article className="bg-beige py-10">
-      <Container>
+    <article className="py-10 border-ba border-slate-200">
+      <div className="ml-[250px] max-w-[1100px]">
         <div className="grid grid-cols-1 md:grid-cols-8">
-          <figure className="col-span-2 place-self-center mr-8">
-            <img
-              src={image}
-              alt="Porträtt av Patrik Hultgren"
-              title="Patrik Hultgren"
-            />
-          </figure>
           <div className="col-span-6">
-            <h2 className="text-4xl" id="om">
+            <h2 className="text-6xl font-light font-karma" id="om">
               Om mig
             </h2>
             <p className="text-xl mt-4">
@@ -39,8 +32,16 @@ export default function About() {
               Blekinge Tekniska Högskola.
             </p>
           </div>
+          <figure className="col-span-2 place-self-center mr-8">
+            <img
+              src={image}
+              className="grayscale"
+              alt="Porträtt av Patrik Hultgren"
+              title="Patrik Hultgren"
+            />
+          </figure>
         </div>
-      </Container>
+      </div>
     </article>
   )
 }

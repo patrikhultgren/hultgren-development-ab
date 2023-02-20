@@ -7,14 +7,14 @@ export default function Projects() {
   return (
     <section
       id="projekt"
-      className="bg-white py-10"
+      className="bg-white py-10 border-b border-slate-200"
       aria-labelledby="projects-title"
     >
-      <Container>
-        <h2 className="text-4xl text-center" id="projects-title">
+      <div className="ml-[250px] max-w-[1100px]">
+        <h2 className="text-6xl font-light font-karma" id="projects-title">
           Projekt
         </h2>
-        <p className="text-lg text-center">Nedan är ett urval av projekt</p>
+        <p className="text-xl">Nedan är ett urval av projekt</p>
         <div className="grid gap-4 md:gap-8 md:grid-cols-2">
           {projects.map((project, index) => (
             <article className="mt-8" key={index}>
@@ -25,13 +25,13 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="h-16 border border-beige block flex items-center justify-center hover:bg-beige transition ease-in-out"
+                    className="h-16 border-t border-b border-slate-200 block flex items-center justify-center hover:bg-beige transition ease-in-out"
                   >
                     {children}
                   </a>
                 )}
                 wrapperFalse={(children) => (
-                  <div className="h-16 border border-beige block flex items-center justify-center hover:bg-beige transition ease-in-out">
+                  <div className="h-16 border-t border-b border-slate-200 block flex items-center justify-center hover:bg-beige transition ease-in-out">
                     {children}
                   </div>
                 )}
@@ -39,13 +39,13 @@ export default function Projects() {
                 {project.logo}
                 <span className="sr-only">{project.title}</span>
               </ConditionalWrapper>
-              <div className="[&>p]:mt-4 mx-4 md:mx-8 text-lg">
+              <div className="[&>p]:mt-4 text-lg">
                 {project.teaser}
               </div>
             </article>
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   )
 }
