@@ -7,12 +7,16 @@ export default function Intro() {
   return (
     <article className="py-[60px] md:py-[80px] border-slate-200">
       <Container>
-        <img className="w-[200px] h-[200px] absolute left-0" src={logo} />
+        <img
+          className="md:w-[200px] md:h-[200px] sm:w-[130px] sm:h-[130px] w-[80px] h-[80px] sm:absolute sm:left-0 ml-autos mb-10"
+          src={logo}
+          alt="Hultgren Development AB logotyp"
+        />
         <div className="max-w-[800px]">
-          <h1 className="text-4xl md:text-7xl font-karma font-light">
+          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-karma font-light">
             Vill du ha hjälp med utvecklingen av din webbplats?
           </h1>
-          <div className="text-2xl mt-3">
+          <div className="text-xl md:text-2xl mt-3">
             <p>Ta gärna kontakt med mig.</p>
             <p>Patrik Hultgren, frilansande webbutvecklare i Stockholm.</p>
           </div>

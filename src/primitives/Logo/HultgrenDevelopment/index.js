@@ -7,7 +7,7 @@ export default function HultgrenDevelopment() {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       viewBox="0 0 2492 800"
       height="82"
-      width="255"
+      width="100%"
       xmlSpace="preserve"
       version="1.1"
     >

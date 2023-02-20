@@ -9,7 +9,7 @@ export default function Footer() {
     <footer role="contentinfo" className="py-16">
       <Container>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4 xl:gap-4">
-          <div className="">
+          <div className="mr-auto">
             <HultgrenDevelopmentLogo />
           </div>
           <div>
