@@ -9,8 +9,8 @@ export default function App() {
     <Router>
       <main role="main">
         <Intro />
-        <About />
         <Projects />
+        <About />
       </main>
       <Footer />
     </Router>

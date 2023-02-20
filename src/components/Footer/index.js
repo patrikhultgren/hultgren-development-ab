@@ -6,10 +6,10 @@ import LinkedInIcon from 'primitives/Logo/LinkedIn'
 
 export default function Footer() {
   return (
-    <footer role="contentinfo" className="text-white py-16">
+    <footer role="contentinfo" className="py-16">
       <Container>
         <div className="grid gap-8 md:grid-cols-2 xl:grid-cols-4 xl:gap-4">
-          <div className="">
+          <div className="mr-auto">
             <HultgrenDevelopmentLogo />
           </div>
           <div>
@@ -17,16 +17,21 @@ export default function Footer() {
               <span className="block uppercase text-lg">
                 Hultgren Development AB
               </span>
-              <span className="block text-gray">Stora Sköndals Väg 27</span>
-              <span className="block text-gray">128 63 Sköndal</span>
+              <span className="block text-slate-600">
+                Stora Sköndals Väg 27
+              </span>
+              <span className="block text-slate-600">128 63 Sköndal</span>
             </address>
           </div>
           <div>
             <span className="block uppercase text-lg">Kontakt</span>
-            <a href="tel:0708-445341" className="block text-gray">
+            <a href="tel:0708-445341" className="block text-slate-600">
               0708-445341
             </a>
-            <a href="mailto:info@patrikhultgren.se" className="block text-gray">
+            <a
+              href="mailto:info@patrikhultgren.se"
+              className="block text-slate-600"
+            >
               info@patrikhultgren.se
             </a>
           </div>

@@ -15,10 +15,11 @@
 body {
   font-family: 'sofiapro-light', sans-serif, Arial, Verdana;
   color: #303030;
-  background-color: #3a3a3a;
+  /* background-color: #3a3a3a; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  background-image: linear-gradient(to right, #f2f4f5, #c1d1e1);
 }
 
 .text-shadow {

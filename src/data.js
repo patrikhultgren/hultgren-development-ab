@@ -22,16 +22,6 @@ export const projects = [
           sidor är inte utbytta än, men på så sätt införs ny teknologi
           inkrementellt.
         </p>
-        {/* <p>
-          För att sprida kunskap mellan projektmedlemmar och öka kvalitén har vi
-          använt oss av pull requests.
-        </p> */}
-        {/* <p>I projektet har vi arbetat med projektledningsmetoden Scrum.</p> */}
-        <p>
-          I appen använder jag mig av tekniker som Typescript, Tailwind, Redux
-          saga och Redis.
-        </p>
-        <p>Appen är skalbar och driftas i Kubernetes.</p>
       </>
     ),
     link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
@@ -44,16 +34,7 @@ export const projects = [
           För Bokhandelsgruppen har jag byggt en intern React app kallad
           Portalen. Det är en app som anställda inom Bokhandelsgruppen använder
           för olika ändamål, t.ex. att hantera Akademibokhandelns butiker och
-          inleveranser. Portalen är ett gränssnitt som behövs för egenutvecklade
-          mikrotjänster och integrationer.
-        </p>
-        {/* <p>
-          Appen är byggd och designad av mig och jag har utbildat andra
-          utvecklare i den.
-        </p> */}
-        {/* <p>Portalen är byggd med funktionella komponenter och hooks.</p> */}
-        <p>
-          Drift av Portalen sker i Kubernetes och driftsättning via Circle CI.
+          inleveranser.
         </p>
       </>
     ),
