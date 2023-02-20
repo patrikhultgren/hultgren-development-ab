@@ -10,7 +10,7 @@ export default function Projects() {
       className="bg-white py-12 border-b border-slate-200"
       aria-labelledby="projects-title"
     >
-      <div className="ml-[250px] max-w-[1100px]">
+      <Container>
         <h2 className="text-6xl font-light font-karma" id="projects-title">
           Projekt
         </h2>
@@ -39,13 +39,11 @@ export default function Projects() {
                 {project.logo}
                 <span className="sr-only">{project.title}</span>
               </ConditionalWrapper>
-              <div className="[&>p]:mt-4 text-lg">
-                {project.teaser}
-              </div>
+              <div className="[&>p]:mt-4 text-lg">{project.teaser}</div>
             </article>
           ))}
         </div>
-      </div>
+      </Container>
     </section>
   )
 }

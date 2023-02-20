@@ -5,10 +5,10 @@ import logo from 'media/p.png'
 
 export default function Intro() {
   return (
-    <article className="sm:min-h-[520px] py-[60px] md:py-[80px] border-ba border-slate-200">
-      <div className="flex">
-        <img className="w-[200px] h-[200px]" src={logo} />
-        <div className="max-w-[800px] ml-14">
+    <article className="py-[60px] md:py-[80px] border-slate-200">
+      <Container>
+        <img className="w-[200px] h-[200px] absolute left-0" src={logo} />
+        <div className="max-w-[800px]">
           <h1 className="text-4xl md:text-7xl font-karma font-light">
             Vill du ha hjälp med utvecklingen av din webbplats?
           </h1>
@@ -31,7 +31,7 @@ export default function Intro() {
             </a>
           </div>
         </div>
-      </div>
+      </Container>
     </article>
   )
 }

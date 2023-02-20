@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function Container({ children }) {
   return (
-    <div className="px-6 mx-auto md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]">
-      {children}
+    <div className="flex px-4 md:px-0 relative">
+      <div className="w-[256px] hidden md:block" />
+      <div className="max-w-[1100px]">{children}</div>
     </div>
   )
 }

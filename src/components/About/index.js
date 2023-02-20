@@ -5,7 +5,7 @@ import Container from 'primitives/Container'
 export default function About() {
   return (
     <article className="py-10 border-ba border-slate-200">
-      <div className="ml-[250px] max-w-[1100px]">
+      <Container>
         <div className="grid grid-cols-1 md:grid-cols-8">
           <div className="col-span-6">
             <h2 className="text-6xl font-light font-karma" id="om">
@@ -41,7 +41,7 @@ export default function About() {
             />
           </figure>
         </div>
-      </div>
+      </Container>
     </article>
   )
 }
