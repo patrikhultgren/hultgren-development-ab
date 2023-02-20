@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc0d7849.css",
-    "main.js": "/static/js/main.a05ab769.js",
+    "main.css": "/static/css/main.152651f5.css",
+    "main.js": "/static/js/main.d5ceaeda.js",
     "static/media/patrik-hultgren.png": "/static/media/patrik-hultgren.6c81d33c3db6ab32adf4.png",
     "static/media/sofiapro-light-webfont.woff": "/static/media/sofiapro-light-webfont.7cd8c0a2832854783e72.woff",
     "static/media/sofiapro-light-webfont.woff2": "/static/media/sofiapro-light-webfont.6272bcf746ba32eb968e.woff2",
     "static/media/p.png": "/static/media/p.9baffbd82cd8e763fc2d.png",
     "index.html": "/index.html",
-    "main.bc0d7849.css.map": "/static/css/main.bc0d7849.css.map",
-    "main.a05ab769.js.map": "/static/js/main.a05ab769.js.map"
+    "main.152651f5.css.map": "/static/css/main.152651f5.css.map",
+    "main.d5ceaeda.js.map": "/static/js/main.d5ceaeda.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc0d7849.css",
-    "static/js/main.a05ab769.js"
+    "static/css/main.152651f5.css",
+    "static/js/main.d5ceaeda.js"
   ]
 }
