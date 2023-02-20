@@ -7,7 +7,7 @@ export default function Projects() {
   return (
     <section
       id="projekt"
-      className="bg-white py-10 border-b border-slate-200"
+      className="bg-white py-12 border-b border-slate-200"
       aria-labelledby="projects-title"
     >
       <div className="ml-[250px] max-w-[1100px]">
