@@ -5,10 +5,7 @@ import { projects } from 'data'
 
 export default function Projects() {
   return (
-    <section
-      className="bg-white py-12 border-b border-slate-200"
-      aria-labelledby="projects-title"
-    >
+    <section className="bg-white py-12" aria-labelledby="projects-title">
       <Container>
         <h2
           className="text-4xl md:text-6xl font-light font-karma"

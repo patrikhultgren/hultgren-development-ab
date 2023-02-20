@@ -4,7 +4,7 @@ import Container from 'primitives/Container'
 
 export default function About() {
   return (
-    <article className="py-10 border-ba border-slate-200">
+    <article className="py-10">
       <Container>
         <div className="grid grid-cols-1 md:grid-cols-8">
           <div className="col-span-6 relative">
