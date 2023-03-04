@@ -1,7 +1,7 @@
-import HultgrenDevelopmentLogo from 'primitives/Logo/HultgrenDevelopment'
-import Container from 'primitives/Container'
-import FacebookIcon from 'primitives/Logo/Facebook'
-import LinkedInIcon from 'primitives/Logo/LinkedIn'
+import HultgrenDevelopmentLogo from 'components/Logo/HultgrenDevelopment'
+import Container from 'components/Container'
+import FacebookIcon from 'components/Logo/Facebook'
+import LinkedInIcon from 'components/Logo/LinkedIn'
 
 export default function Footer() {
   return (

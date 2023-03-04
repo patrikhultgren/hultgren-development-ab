@@ -1,5 +1,5 @@
 import image from 'media/patrik-hultgren.png'
-import Container from 'primitives/Container'
+import Container from 'components/Container'
 
 export default function About() {
   return (

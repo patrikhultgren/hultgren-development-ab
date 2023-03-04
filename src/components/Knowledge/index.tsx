@@ -1,4 +1,4 @@
-import Container from 'primitives/Container'
+import Container from 'components/Container'
 
 export default function Knowledge() {
   return (

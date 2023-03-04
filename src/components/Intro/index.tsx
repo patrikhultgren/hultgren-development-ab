@@ -1,4 +1,4 @@
-import Container from 'primitives/Container'
+import Container from 'components/Container'
 import logo from 'media/p.png'
 
 export default function Intro() {

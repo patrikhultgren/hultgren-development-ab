@@ -1,9 +1,9 @@
-import TravrondenLogo from 'primitives/Logo/Travronden'
-// import ManufacturingGuideLogo from 'primitives/Logo/ManufacturingGuide'
-import BokusLogo from 'primitives/Logo/Bokus'
-// import SpelvardeLogo from 'primitives/Logo/Spelvarde'
-import AkademibokhandelnLogo from 'primitives/Logo/Akademibokhandeln'
-import PortalenLogo from 'primitives/Logo/Portalen'
+import TravrondenLogo from 'components/Logo/Travronden'
+// import ManufacturingGuideLogo from 'components/Logo/ManufacturingGuide'
+import BokusLogo from 'components/Logo/Bokus'
+// import SpelvardeLogo from 'components/Logo/Spelvarde'
+import AkademibokhandelnLogo from 'components/Logo/Akademibokhandeln'
+import PortalenLogo from 'components/Logo/Portalen'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },

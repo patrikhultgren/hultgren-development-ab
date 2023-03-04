@@ -1,5 +1,5 @@
-import ConditionalWrapper from 'utils/ConditionalWrapper'
-import Container from 'primitives/Container'
+import ConditionalWrapper from 'components/ConditionalWrapper'
+import Container from 'components/Container'
 import { projects } from 'data'
 
 export default function Projects() {
