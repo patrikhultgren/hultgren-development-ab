@@ -1,9 +1,3 @@
-import React from 'react'
-
 export default function Portalen() {
-  return (
-    <div className="text-2xl font-bold">
-      PORTALEN
-    </div>
-  )
+  return <div className="text-2xl font-bold">PORTALEN</div>
 }

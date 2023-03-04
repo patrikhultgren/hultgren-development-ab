@@ -1,6 +1,4 @@
-import React from 'react'
 import Container from 'primitives/Container'
-
 import logo from 'media/p.png'
 
 export default function Intro() {

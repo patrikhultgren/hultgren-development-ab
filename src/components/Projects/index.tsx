@@ -1,4 +1,3 @@
-import React from 'react'
 import ConditionalWrapper from 'utils/ConditionalWrapper'
 import Container from 'primitives/Container'
 import { projects } from 'data'

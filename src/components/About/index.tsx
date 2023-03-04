@@ -1,4 +1,3 @@
-import React from 'react'
 import image from 'media/patrik-hultgren.png'
 import Container from 'primitives/Container'
 

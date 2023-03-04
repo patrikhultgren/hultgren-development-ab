@@ -1,4 +1,3 @@
-import React from 'react'
 import HultgrenDevelopmentLogo from 'primitives/Logo/HultgrenDevelopment'
 import Container from 'primitives/Container'
 import FacebookIcon from 'primitives/Logo/Facebook'
