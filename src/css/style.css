@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css?family=Karma:400|Karma');
+@font-face {
+  font-family: 'Karma';
+  src: url('../webfonts/karma/regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'sofiapro-light';
@@ -15,7 +20,6 @@
 body {
   font-family: 'sofiapro-light', sans-serif, Arial, Verdana;
   color: #303030;
-  /* background-color: #3a3a3a; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
