@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.cc535eda.css",
+    "main.css": "/static/css/main.3d426306.css",
     "main.js": "/static/js/main.a7c18fe3.js",
     "static/js/787.a2e1bf16.chunk.js": "/static/js/787.a2e1bf16.chunk.js",
+    "static/media/regular.woff": "/static/media/regular.e3a985c06f5793fab27d.woff",
     "service-worker.js": "/service-worker.js",
     "static/media/patrik-hultgren.png": "/static/media/patrik-hultgren.6c81d33c3db6ab32adf4.png",
     "static/media/sofiapro-light-webfont.woff": "/static/media/sofiapro-light-webfont.7cd8c0a2832854783e72.woff",
     "static/media/sofiapro-light-webfont.woff2": "/static/media/sofiapro-light-webfont.6272bcf746ba32eb968e.woff2",
     "static/media/p.png": "/static/media/p.9baffbd82cd8e763fc2d.png",
     "index.html": "/index.html",
-    "main.cc535eda.css.map": "/static/css/main.cc535eda.css.map",
+    "main.3d426306.css.map": "/static/css/main.3d426306.css.map",
     "main.a7c18fe3.js.map": "/static/js/main.a7c18fe3.js.map",
     "787.a2e1bf16.chunk.js.map": "/static/js/787.a2e1bf16.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc535eda.css",
+    "static/css/main.3d426306.css",
     "static/js/main.a7c18fe3.js"
   ]
 }
