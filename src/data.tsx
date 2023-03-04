@@ -12,6 +12,7 @@ export const menuitems = [
 
 export const projects = [
   {
+    title: 'Akademibokhandeln',
     logo: <AkademibokhandelnLogo />,
     teaser: (
       <>
@@ -27,6 +28,7 @@ export const projects = [
     link: 'https://www.akademibokhandeln.se/sok?sokfraga=harry+potter',
   },
   {
+    title: 'Portalen',
     logo: <PortalenLogo />,
     teaser: (
       <>
@@ -40,6 +42,7 @@ export const projects = [
     ),
   },
   {
+    title: 'Travronden',
     logo: <TravrondenLogo />,
     teaser: (
       <p>
@@ -50,6 +53,7 @@ export const projects = [
     ),
   },
   {
+    title: 'Bokus',
     logo: <BokusLogo />,
     teaser: (
       <p>

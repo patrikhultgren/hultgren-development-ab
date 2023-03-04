@@ -1,5 +1,3 @@
-import React from 'react'
-import ConditionalWrapper from 'utils/ConditionalWrapper'
 import Container from 'primitives/Container'
 
 export default function Knowledge() {
