@@ -17,7 +17,7 @@ export default function Footer() {
                 Hultgren Development AB
               </span>
               <span className="block text-slate-600">
-                Stora Sköndals Väg 27
+                Stora Sköndals väg 27
               </span>
               <span className="block text-slate-600">128 63 Sköndal</span>
             </address>
