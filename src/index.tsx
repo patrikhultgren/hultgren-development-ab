@@ -16,8 +16,10 @@ serviceWorkerRegistration.register({
     const waitingServiceWorker = registration.waiting
 
     if (waitingServiceWorker) {
-      waitingServiceWorker.addEventListener('statechange', (event: any) => {
-        if (event.target.state === 'activated') {
+      waitingServiceWorker.addEventListener('statechange', (event) => {
+        const serviceWorker = event?.target as ServiceWorker
+
+        if (serviceWorker?.state === 'activated') {
           window.location.reload()
         }
       })
