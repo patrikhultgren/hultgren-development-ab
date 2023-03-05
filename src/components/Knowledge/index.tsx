@@ -19,9 +19,9 @@ export default function Knowledge() {
           <li>TypeScript</li>
           <li>Tailwind</li>
           <li>Redux-Saga</li>
-          <li>Scrum</li>
           <li>Kubernetes</li>
           <li>Docker</li>
+          <li>Scrum</li>
         </ul>
       </Container>
     </section>
