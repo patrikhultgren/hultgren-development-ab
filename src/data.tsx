@@ -71,9 +71,9 @@ export const projects = [
     logo: <WeatherLogo />,
     teaser: (
       <p>
-        Väderprognoser är en PWA med offline stöd som hämtar sina data från Yr.
+        Väderprognoser är en PWA med offline stöd som hämtar vädret från Yr.
         Testa gärna att lägga till sajten som en ikon på hemskärmen i din mobil
-        och den kommer kännas som vilken native app som helst.
+        och den kommer kännas som en native app.
       </p>
     ),
     link: 'https://patrikhultgren.github.io/weather',
