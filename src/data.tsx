@@ -1,7 +1,7 @@
 import TravrondenLogo from 'components/Icon/Logo/Travronden'
 // import ManufacturingGuideLogo from 'components/Icon/Logo/ManufacturingGuide'
 import BokusLogo from 'components/Icon/Logo/Bokus'
-// import SpelvardeLogo from 'components/Icon/Logo/Spelvarde'
+import SpelvardeLogo from 'components/Icon/Logo/Spelvarde'
 import AkademibokhandelnLogo from 'components/Icon/Logo/Akademibokhandeln'
 import PortalenLogo from 'components/Icon/Logo/Portalen'
 import WeatherLogo from 'components/Icon/Logo/Weather'
@@ -88,14 +88,15 @@ export const projects = [
   //   ),
   //   link: 'https://www.manufacturingguide.com/sv',
   // },
-  // {
-  //   logo: <SpelvardeLogo />,
-  //   teaser: (
-  //     <p>
-  //       För Spelvärde byggde jag den första versionen av sajten. Jag har även
-  //       programmerat statistiska texter till startande hästar.
-  //     </p>
-  //   ),
-  //   link: 'https://www.spelvarde.se',
-  // },
+  {
+    logo: <SpelvardeLogo />,
+    teaser: (
+      <p>
+        För Spelvärde har jag byggt flera olika funktioner som t.ex. automatisk
+        import av travdata så att redaktörer enkelt kan ta fram spelförslag. Jag
+        har också tagit fram statistiska texter till startande hästar.
+      </p>
+    ),
+    link: 'https://www.spelvarde.se',
+  },
 ]
