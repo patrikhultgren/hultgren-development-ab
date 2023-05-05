@@ -1,10 +1,10 @@
-import TravrondenLogo from 'components/Logo/Travronden'
-// import ManufacturingGuideLogo from 'components/Logo/ManufacturingGuide'
-import BokusLogo from 'components/Logo/Bokus'
-// import SpelvardeLogo from 'components/Logo/Spelvarde'
-import AkademibokhandelnLogo from 'components/Logo/Akademibokhandeln'
-import PortalenLogo from 'components/Logo/Portalen'
-import WeatherLogo from 'components/Logo/Weather'
+import TravrondenLogo from 'components/Icon/Logo/Travronden'
+// import ManufacturingGuideLogo from 'components/Icon/Logo/ManufacturingGuide'
+import BokusLogo from 'components/Icon/Logo/Bokus'
+// import SpelvardeLogo from 'components/Icon/Logo/Spelvarde'
+import AkademibokhandelnLogo from 'components/Icon/Logo/Akademibokhandeln'
+import PortalenLogo from 'components/Icon/Logo/Portalen'
+import WeatherLogo from 'components/Icon/Logo/Weather'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },
