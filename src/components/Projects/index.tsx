@@ -1,5 +1,6 @@
 import ConditionalWrapper from 'components/ConditionalWrapper'
 import Container from 'components/Container'
+import ArrowRight from 'components/Icon/ArrowRight'
 import { projects } from 'data'
 
 export default function Projects() {
@@ -36,6 +37,7 @@ export default function Projects() {
               >
                 {project.logo}
                 <span className="sr-only">{project.title}</span>
+                {project.link ? <ArrowRight className="ml-3" /> : <></>}
               </ConditionalWrapper>
               <div className="[&>p]:mt-4 text-lg">{project.teaser}</div>
             </article>

@@ -22,6 +22,7 @@ export default function Knowledge() {
           <li>Kubernetes</li>
           <li>Docker</li>
           <li>Scrum</li>
+          <li>PWA</li>
         </ul>
       </Container>
     </section>

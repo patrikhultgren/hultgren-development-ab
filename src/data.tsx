@@ -4,6 +4,7 @@ import BokusLogo from 'components/Logo/Bokus'
 // import SpelvardeLogo from 'components/Logo/Spelvarde'
 import AkademibokhandelnLogo from 'components/Logo/Akademibokhandeln'
 import PortalenLogo from 'components/Logo/Portalen'
+import WeatherLogo from 'components/Logo/Weather'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },
@@ -13,7 +14,9 @@ export const menuitems = [
 export const projects = [
   {
     title: 'Akademibokhandeln',
-    logo: <AkademibokhandelnLogo />,
+    logo: (
+      <AkademibokhandelnLogo className="w-[200px] h-[26px] md:w-[280px] md:h-[37px]" />
+    ),
     teaser: (
       <>
         <p>
@@ -62,6 +65,18 @@ export const projects = [
         Checkouten är byggd i React och med Klarnas betallösning.
       </p>
     ),
+  },
+  {
+    title: 'Väderprognoser',
+    logo: <WeatherLogo />,
+    teaser: (
+      <p>
+        Väderprognoser är en PWA med offline stöd som hämtar sina data från Yr.
+        Testa gärna att lägga till sajten som en ikon på hemskärmen i din mobil
+        och den kommer kännas som vilken native app som helst.
+      </p>
+    ),
+    link: 'https://patrikhultgren.github.io/weather',
   },
   // {
   //   logo: <ManufacturingGuideLogo />,
