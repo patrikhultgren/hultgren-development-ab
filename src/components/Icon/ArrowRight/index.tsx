@@ -8,7 +8,7 @@ export default function ArrowRight({ className }: IProps) {
       stroke="currentColor"
       fill="currentColor"
       strokeWidth="0"
-      viewBox="0 0 16 16"
+      viewBox="0 0 17 17"
       height="1.8rem"
       width="1.8rem"
       xmlns="http://www.w3.org/2000/svg"
