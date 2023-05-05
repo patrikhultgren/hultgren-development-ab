@@ -62,7 +62,7 @@ export const projects = [
       <p>
         På Bokus var jag med och tog fram den nya checkouten för e-handeln.
         Målet med projektet var att göra det smidigare för kunden att betala.
-        Checkouten är byggd i React och med Klarnas betallösning.
+        Checkouten är byggd i React och med Klarna.
       </p>
     ),
   },
