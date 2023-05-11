@@ -68,7 +68,8 @@ export default function Projects() {
           </div>
           <div className="basis-1/3 md:basis-1/2 self-center">
             <img
-              src="/weather.png"
+              src="/weather-904w.png"
+              srcSet="/weather-226w.png, /weather-452w.png 2x, /weather-678w.png 3x, /weather-904ww.png 4x"
               alt="Väder webbapp"
               className="w-full ml-auto"
             />
@@ -99,7 +100,8 @@ export default function Projects() {
           </div>
           <div className="basis-1/3 md:basis-1/2 self-center">
             <img
-              src="/calendar.png"
+              src="/calendar-904w.png"
+              srcSet="/calendar-226w.png, /calendar-452w.png 2x, /calendar-678w.png 3x, /calendar-904ww.png 4x"
               alt="Kalender webbapp"
               className="w-full ml-auto"
             />
