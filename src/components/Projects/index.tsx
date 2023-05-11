@@ -43,16 +43,22 @@ export default function Projects() {
             </article>
           ))}
         </div>
-        <article className="mt-16 flex bg-slate-100 border border-slate-300 rounded-lg p-6 md:p-10">
-          <div className="basis-2/3 md:basis-1/2 pr-4 md:pr-10">
-            <h2 className="font-karma text-4xl md:text-6xl">
-              <a
-                href="https://patrikhultgren.github.io/weather/"
-                className="flex items-center"
-              >
-                Väder <ArrowRight className="ml-3" />
-              </a>
-            </h2>
+        <article className="mt-16 flex flex-col bg-slate-100 border border-slate-300 rounded-lg p-6 md:p-10">
+          <h2 className="font-karma text-4xl md:text-6xl">
+            <a
+              href="https://patrikhultgren.github.io/weather/"
+              className="flex items-center"
+            >
+              Väder <ArrowRight className="ml-3" />
+            </a>
+          </h2>
+          <div>
+            <img
+              src="/weather-904w.png"
+              srcSet="/weather-226w.png, /weather-452w.png 2x, /weather-678w.png 3x, /weather-904ww.png 4x"
+              alt="Väder webbapp"
+              className="w-[30%] lg:w-[48%] md:ml-16 ml-6 mt-4 mb-4 md:mt-0 float-right"
+            />
             <p className="mt-2 text-xl">
               Väder är en PWA med offline stöd som hämtar vädret från Yr. Testa
               gärna att lägga till sajten som en ikon på hemskärmen i din mobil
@@ -61,30 +67,34 @@ export default function Projects() {
             </p>
             <p className="mt-6">
               Väderikonerna är skapade av Yr. För att göra de mer tillgängliga
-              skapade jag ett React komponent bibliotek så att man enkelt kan
+              skapade jag ett React komponent bibliotek så att vem som helst kan
               använda de i sin app. Diagrammen är byggda i D3 vilket innebär
               renderas som SVG och därmed är skarpare än om de vore bilder.
             </p>
-          </div>
-          <div className="basis-1/3 md:basis-1/2 self-center">
-            <img
-              src="/weather-904w.png"
-              srcSet="/weather-226w.png, /weather-452w.png 2x, /weather-678w.png 3x, /weather-904ww.png 4x"
-              alt="Väder webbapp"
-              className="w-full ml-auto"
-            />
+            <p className="mt-6">
+              Min tanke med appen var att kräva så lite interaktion från
+              användaren som möjligt och ändå vara användbar. T.ex. kan man dela
+              med sig av sin position och då slippa att söka för att se en
+              väderprognos.
+            </p>
           </div>
         </article>
-        <article className="mt-8 flex bg-slate-100 border border-slate-300 rounded-lg p-6 md:p-10">
-          <div className="basis-2/3 md:basis-1/2 pr-4 md:pr-10">
-            <h2 className="font-karma text-4xl md:text-6xl">
-              <a
-                href="https://patrikhultgren.github.io/calendar"
-                className="flex items-center"
-              >
-                Kalender <ArrowRight className="ml-3" />
-              </a>
-            </h2>
+        <article className="mt-8 flex flex-col bg-slate-100 border border-slate-300 rounded-lg p-6 md:p-10">
+          <h2 className="font-karma text-4xl md:text-6xl">
+            <a
+              href="https://patrikhultgren.github.io/calendar"
+              className="flex items-center"
+            >
+              Kalender <ArrowRight className="ml-3" />
+            </a>
+          </h2>
+          <div>
+            <img
+              src="/calendar-904w.png"
+              srcSet="/calendar-226w.png, /calendar-452w.png 2x, /calendar-678w.png 3x, /calendar-904ww.png 4x"
+              alt="Kalender webbapp"
+              className="w-[30%] lg:w-[48%] md:ml-16 ml-6 mt-4 mb-4 md:mt-0 float-right"
+            />
             <p className="mt-2 text-xl">
               Kalender webbappen är till för att enkelt kunna se veckonummer och
               helgdagar. Anledningen till att jag byggde var för att lära mig
@@ -93,18 +103,14 @@ export default function Projects() {
             </p>
             <p className="mt-6">
               Testa gärna att lägga till webbappen som en ikon på hemskärmen.
-              Slå på flygplansläget och den fungerar ändå. I och med att
-              innehållet sparas ner via en service worker så laddas appen mycket
-              snabbt och det gör att offline läge är möjligt.
+              Efter att du öppnat den fungerar den offline för dina tidigare
+              besökta sidor. Det sker för att innehållet sparas ner via en
+              service worker vilket också ger bättre prestanda.
             </p>
-          </div>
-          <div className="basis-1/3 md:basis-1/2 self-center">
-            <img
-              src="/calendar-904w.png"
-              srcSet="/calendar-226w.png, /calendar-452w.png 2x, /calendar-678w.png 3x, /calendar-904ww.png 4x"
-              alt="Kalender webbapp"
-              className="w-full ml-auto"
-            />
+            <p className="mt-6">
+              Jag har fått en positiv upplevelse av SvelteKit och tycker det har
+              gått fort att komma in i. Man känner sig snabbt produktiv.
+            </p>
           </div>
         </article>
       </Container>
