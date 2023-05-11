@@ -1,10 +1,10 @@
 import TravrondenLogo from 'components/Icon/Logo/Travronden'
 // import ManufacturingGuideLogo from 'components/Icon/Logo/ManufacturingGuide'
 import BokusLogo from 'components/Icon/Logo/Bokus'
-import SpelvardeLogo from 'components/Icon/Logo/Spelvarde'
+// import SpelvardeLogo from 'components/Icon/Logo/Spelvarde'
 import AkademibokhandelnLogo from 'components/Icon/Logo/Akademibokhandeln'
 import PortalenLogo from 'components/Icon/Logo/Portalen'
-import WeatherLogo from 'components/Icon/Logo/Weather'
+// import WeatherLogo from 'components/Icon/Logo/Weather'
 
 export const menuitems = [
   { link: '#om', title: 'Om mig' },
@@ -66,18 +66,18 @@ export const projects = [
       </p>
     ),
   },
-  {
-    title: 'Väderprognoser',
-    logo: <WeatherLogo />,
-    teaser: (
-      <p>
-        Väderprognoser är en PWA med offline stöd som hämtar vädret från Yr.
-        Testa gärna att lägga till sajten som en ikon på hemskärmen i din mobil
-        och den kommer kännas som en native app.
-      </p>
-    ),
-    link: 'https://patrikhultgren.github.io/weather',
-  },
+  // {
+  //   title: 'Väderprognoser',
+  //   logo: <WeatherLogo />,
+  //   teaser: (
+  //     <p>
+  //       Väderprognoser är en PWA med offline stöd som hämtar vädret från Yr.
+  //       Testa gärna att lägga till sajten som en ikon på hemskärmen i din mobil
+  //       och den kommer kännas som en native app.
+  //     </p>
+  //   ),
+  //   link: 'https://patrikhultgren.github.io/weather',
+  // },
   // {
   //   logo: <ManufacturingGuideLogo />,
   //   teaser: (
@@ -88,15 +88,15 @@ export const projects = [
   //   ),
   //   link: 'https://www.manufacturingguide.com/sv',
   // },
-  {
-    logo: <SpelvardeLogo />,
-    teaser: (
-      <p>
-        För Spelvärde har jag byggt flera olika funktioner som t.ex. automatisk
-        import av travdata så att redaktörer enkelt kan ta fram spelförslag. Jag
-        har också tagit fram statistiska texter till startande hästar.
-      </p>
-    ),
-    link: 'https://www.spelvarde.se',
-  },
+  // {
+  //   logo: <SpelvardeLogo />,
+  //   teaser: (
+  //     <p>
+  //       För Spelvärde har jag byggt flera olika funktioner som t.ex. automatisk
+  //       import av travdata så att redaktörer enkelt kan ta fram spelförslag. Jag
+  //       har också tagit fram statistiska texter till startande hästar.
+  //     </p>
+  //   ),
+  //   link: 'https://www.spelvarde.se',
+  // },
 ]
