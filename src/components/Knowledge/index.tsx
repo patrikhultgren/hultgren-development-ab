@@ -23,6 +23,9 @@ export default function Knowledge() {
           <li>Docker</li>
           <li>Scrum</li>
           <li>PWA</li>
+          <li>Svelte</li>
+          <li>SvelteKit</li>
+          <li>Webbkomponenter</li>
         </ul>
       </Container>
     </section>
