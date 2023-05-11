@@ -85,16 +85,16 @@ export default function Projects() {
               </a>
             </h2>
             <p className="mt-2 text-xl">
-              Kalender webbapp är till för att enkelt kunna se veckonummer och
+              Kalender webbappen är till för att enkelt kunna se veckonummer och
               helgdagar. Anledningen till att jag byggde var för att lära mig
               mer om webbkomponenter. Därmed valde jag att bygga den med
               SvelteKit.
             </p>
             <p className="mt-6">
               Testa gärna att lägga till webbappen som en ikon på hemskärmen.
-              Slå på flygplansläget och den kan fungera ändå. I och med att
+              Slå på flygplansläget och den fungerar ändå. I och med att
               innehållet sparas ner via en service worker så laddas appen mycket
-              snabbt och offline läge är möjligt.
+              snabbt och det gör att offline läge är möjligt.
             </p>
           </div>
           <div className="basis-1/3 md:basis-1/2 self-center">
