@@ -74,7 +74,7 @@ export default function Projects() {
             <p className="mt-6">
               Min tanke med appen var att kräva så lite interaktion från
               användaren som möjligt och ändå vara användbar. T.ex. kan man dela
-              med sig av sin position och då slippa att söka för att se en
+              med sig av sin position och då slippa att söka för att se sin
               väderprognos.
             </p>
           </div>
