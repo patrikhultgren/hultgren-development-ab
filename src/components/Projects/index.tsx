@@ -97,9 +97,8 @@ export default function Projects() {
             />
             <p className="mt-2 text-xl">
               Kalender webbappen är till för att enkelt kunna se veckonummer och
-              helgdagar. Anledningen till att jag byggde var för att lära mig
-              mer om webbkomponenter. Därmed valde jag att bygga den med
-              SvelteKit.
+              helgdagar. För att lära mig mer och för att uppnå bra prestanda
+              valda jag att bygga den med SvelteKit.
             </p>
             <p className="mt-6">
               Testa gärna att lägga till webbappen som en ikon på hemskärmen.
