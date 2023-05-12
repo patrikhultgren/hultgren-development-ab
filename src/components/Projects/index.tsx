@@ -104,7 +104,7 @@ export default function Projects() {
               Testa gärna att lägga till webbappen som en ikon på hemskärmen.
               Efter att du öppnat den fungerar den offline för dina tidigare
               besökta sidor. Det sker för att innehållet sparas ner via en
-              service worker vilket också ger bättre prestanda.
+              service worker vilket också förbättrar prestandan.
             </p>
             <p className="mt-6">
               Jag har fått en positiv upplevelse av SvelteKit och tycker det har
