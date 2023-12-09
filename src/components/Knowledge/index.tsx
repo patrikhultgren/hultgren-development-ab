@@ -1,4 +1,5 @@
 import Container from 'components/Container'
+import { knowledges } from 'data'
 
 export default function Knowledge() {
   return (
@@ -14,17 +15,9 @@ export default function Knowledge() {
           Kunskaper
         </h2>
         <ul className="flex text-xl md:text-2xl font-light flex-wrap [&>li]:mt-3 list-none gap-x-8">
-          <li>React</li>
-          <li>Next.js</li>
-          <li>TypeScript</li>
-          <li>Tailwind</li>
-          <li>Redux-Saga</li>
-          <li>Kubernetes</li>
-          <li>Docker</li>
-          <li>Scrum</li>
-          <li>PWA</li>
-          <li>Svelte</li>
-          <li>Webbkomponenter</li>
+          {knowledges.map((knowledge) => (
+            <li key={knowledge}>{knowledge}</li>
+          ))}
         </ul>
       </Container>
     </section>

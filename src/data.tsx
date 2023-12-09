@@ -89,3 +89,22 @@ export const largeProjects = [
     link: 'https://patrikhultgren.github.io/calendar/',
   },
 ]
+
+export const knowledges = [
+  'React',
+  'Next.js',
+  'TypeScript',
+  'Tailwind',
+  'RTK Query',
+  'Redux-Saga',
+  'Playwright',
+  'Kubernetes',
+  'Docker',
+  'Scrum',
+  'PWA',
+  'Svelte',
+  'Webbkomponenter',
+  'Here Maps',
+  'GCP',
+  'AWS',
+]
