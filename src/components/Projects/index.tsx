@@ -60,7 +60,6 @@ export default function Projects() {
               >
                 <img
                   src={`/${project.key}-904w.png`}
-                  srcSet={`/${project.key}-226w.png, /${project.key}-452w.png 2x, /${project.key}-678w.png 3x, /${project.key}-904ww.png 4x`}
                   alt={`${project.key} webbapp`}
                   className="w-full"
                 />
