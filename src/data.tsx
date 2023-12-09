@@ -80,10 +80,10 @@ export const largeProjects = [
   {
     title: 'Kalender',
     teaser:
-      'Kalender webbappen är till för att enkelt kunna se veckonummer och helgdagar. För att lära mig mer och för att uppnå bra prestanda valda jag att bygga den med SvelteKit.',
+      'Kalender webbappen är till för att enkelt kunna se veckonummer och helgdagar. För att lära mig mer och för att uppnå bra prestanda valda jag att bygga den med Svelte.',
     body: [
       'Testa gärna att lägga till webbappen som en ikon på hemskärmen. Efter att du öppnat den fungerar den offline för dina tidigare besökta sidor. Det sker för att innehållet sparas ner via en service worker vilket också förbättrar prestandan.',
-      'Jag har fått en positiv upplevelse av SvelteKit och tycker det har gått fort att komma in i. Man känner sig snabbt produktiv.',
+      'Jag har fått en positiv upplevelse av Svelte och tycker det har gått fort att komma in i. Man känner sig snabbt produktiv.',
     ],
     key: 'calendar',
     link: 'https://patrikhultgren.github.io/calendar/',

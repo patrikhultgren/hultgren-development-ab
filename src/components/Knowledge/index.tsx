@@ -24,7 +24,7 @@ export default function Knowledge() {
           <li>Scrum</li>
           <li>PWA</li>
           <li>Svelte</li>
-          <li>SvelteKit</li>
+          <li>Svelte</li>
           <li>Webbkomponenter</li>
         </ul>
       </Container>
