@@ -71,7 +71,19 @@ export const largeProjects = [
     teaser:
       'Väder är en PWA med offline stöd som hämtar vädret från Yr. Testa gärna att lägga till sajten som en ikon på hemskärmen i din mobil och den kommer kännas som en native app. Se vädret var du än är runt om i världen.',
     body: [
-      'Väderikonerna är skapade av Yr. För att göra de mer tillgängliga skapade jag ett React komponent bibliotek så att vem som helst kan använda de i sin app.',
+      <>
+        Väderikonerna är gjorda av Yr. För att göra dem enklare att använda i
+        React-appar byggde jag komponentbiblioteket{' '}
+        <a
+          className="underline"
+          href="https://www.npmjs.com/package/react-yr-weather-icons"
+          target="_blank"
+          rel="noreferrer"
+        >
+          React Yr Weather Icons
+        </a>
+        .
+      </>,
       'Min tanke med appen var att kräva så lite interaktion från användaren som möjligt och ändå vara användbar. T.ex. kan man dela med sig av sin position och då slippa att söka för att se sin väderprognos.',
     ],
     key: 'weather',
