@@ -43,6 +43,40 @@ export default function Projects() {
             </article>
           ))}
         </div>
+        <article className="flex flex-col lg:flex-row border border-slate-300 mt-16 rounded">
+          <div className="p-8 pr-16">
+            <div>
+              <h2 className="font-karma text-2xl md:text-6xl">
+                <a
+                  href="https://www.imagepickcolor.com"
+                  className="flex items-center"
+                >
+                  Finn färgen <ArrowRight className="ml-3" />
+                </a>
+              </h2>
+              <p className="text-xl mt-2">
+                Finn färgen är en app där du kan ladda upp en bild och klicka
+                för att enkelt få fram den exakta färgen (HEX och RGB) för just
+                den pixeln. Perfekt för designers eller utvecklare som ofta
+                jobbar med färger.
+              </p>
+              <p className="mt-6">
+                Allt sker direkt i din webbläsareg. Appen fungerar även offline,
+                så att du kan använda den när du vill, oavsett
+                internetuppkoppling. Lägg gärna till den på hemskärmen.
+              </p>
+            </div>
+          </div>
+          <div className="w-[300px] shrink-0 mx-auto">
+            <a href="https://www.imagepickcolor.com">
+              <img
+                src={`/imagepickcolor.png`}
+                alt="Finn färgen webbapp"
+                className="w-full grayscale-[50%] transition-all"
+              />
+            </a>
+          </div>
+        </article>
         {largeProjects.map((project) => (
           <article
             key={project.key}
