@@ -61,7 +61,7 @@ export default function Projects() {
                 <img
                   src={`/${project.key}-904w.png`}
                   alt={`${project.key} webbapp`}
-                  className="w-full"
+                  className="w-full rounded-[2rem]"
                 />
               </a>
               <p className="mt-2 text-xl">{project.teaser}</p>
