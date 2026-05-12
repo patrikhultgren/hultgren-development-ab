@@ -67,6 +67,21 @@ export const smallProjects = [
 
 export const largeProjects = [
   {
+    title: 'DiskHunt',
+    teaser:
+      'DiskHunt är en sajt för att hitta och jämföra lagringsenheter som SSD- och HDD-hårddiskar. Med smarta filter, prisvisning och en jämförelsevy gör den det enkelt att hitta rätt lagring för just dina behov.',
+    body: [
+      <>
+        Sajten är byggd som en PWA med React, TypeScript och Vite. Produktdata
+        hämtas från Amazon via Rainforest API och lagras i ett eget
+        backoffice-system som jag också byggt från grunden.
+      </>,
+      'Backoffice-systemet låter mig söka efter produkter på Amazon, berika dem med detaljerad data och synkronisera dem till sajten. Det består av ett Node.js/Fastify-API och ett React-gränssnitt.',
+    ],
+    key: 'diskhunt',
+    link: 'https://www.diskhunt.com',
+  },
+  {
     title: 'Väder',
     teaser:
       'Väder är en PWA med offline stöd som hämtar vädret från Yr. Testa gärna att lägga till sajten som en ikon på hemskärmen i din mobil och den kommer kännas som en native app. Se vädret var du än är runt om i världen.',
