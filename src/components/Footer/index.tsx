@@ -2,8 +2,21 @@ import HultgrenDevelopmentLogo from 'components/Icon/Logo/HultgrenDevelopment'
 import Container from 'components/Container'
 import FacebookIcon from 'components/Icon/Logo/Facebook'
 import LinkedInIcon from 'components/Icon/Logo/LinkedIn'
+import type { Translations } from 'translations'
 
-export default function Footer() {
+const locales = [
+  { code: 'sv', label: 'Svenska', href: '/' },
+  { code: 'en', label: 'English', href: '/en' },
+  { code: 'de', label: 'Deutsch', href: '/de' },
+  { code: 'es', label: 'Español', href: '/es' },
+]
+
+type Props = {
+  t: Translations['footer']
+  currentLocale: 'sv' | 'en' | 'de' | 'es'
+}
+
+export default function Footer({ t, currentLocale }: Props) {
   return (
     <footer role="contentinfo" className="py-16">
       <Container>
@@ -23,7 +36,7 @@ export default function Footer() {
             </address>
           </div>
           <div>
-            <span className="block uppercase text-lg">Kontakt</span>
+            <span className="block uppercase text-lg">{t.contactHeading}</span>
             <a href="tel:0708-445341" className="block text-slate-600">
               0708-445341
             </a>
@@ -34,7 +47,7 @@ export default function Footer() {
               info@patrikhultgren.se
             </a>
           </div>
-          <div className="self-end">
+          <div className="flex flex-col justify-between gap-6">
             <div className="flex items-center">
               <a
                 href="https://www.facebook.com/patrik.hultgren.7"
@@ -48,6 +61,21 @@ export default function Footer() {
                 <span className="sr-only">LinkedIn</span>
               </a>
             </div>
+            <nav aria-label="Language switcher">
+              <ul className="flex flex-wrap gap-x-3 gap-y-1">
+                {locales.map(({ code, label, href }) => (
+                  <li key={code}>
+                    {code === currentLocale ? (
+                      <span className="text-black font-medium">{label}</span>
+                    ) : (
+                      <a href={href} className="text-slate-500 hover:text-black transition-colors">
+                        {label}
+                      </a>
+                    )}
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </div>
         </div>
       </Container>

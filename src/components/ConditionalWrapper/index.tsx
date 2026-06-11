@@ -1,4 +1,6 @@
-type TChildren = JSX.Element | Array<JSX.Element> | string
+import type { ReactNode } from 'react'
+
+type TChildren = ReactNode
 
 interface IProps {
   condition: boolean

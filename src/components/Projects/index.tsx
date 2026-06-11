@@ -1,9 +1,30 @@
 import ConditionalWrapper from 'components/ConditionalWrapper'
 import Container from 'components/Container'
 import ArrowRight from 'components/Icon/ArrowRight'
-import { smallProjects, largeProjects } from 'data'
+import type { Translations } from 'translations'
 
-export default function Projects() {
+type SmallProject = {
+  title: string
+  logo: React.ReactNode
+  teaser: React.ReactNode
+  link?: string
+}
+
+type LargeProject = {
+  title: string
+  teaser: string
+  body: React.ReactNode[]
+  key: string
+  link: string
+}
+
+type Props = {
+  t: Translations['projects']
+  smallProjects: SmallProject[]
+  largeProjects: LargeProject[]
+}
+
+export default function Projects({ t, smallProjects, largeProjects }: Props) {
   return (
     <section className="bg-white py-12" aria-labelledby="projects-title">
       <Container>
@@ -11,9 +32,9 @@ export default function Projects() {
           className="text-4xl md:text-6xl font-light font-karma"
           id="projects-title"
         >
-          Projekt
+          {t.heading}
         </h2>
-        <p className="text-xl">Nedan är ett urval av projekt</p>
+        <p className="text-xl">{t.subheading}</p>
         <div className="grid gap-4 md:gap-12 md:grid-cols-2">
           {smallProjects.map((project, index) => (
             <article className="mt-8" key={index}>
@@ -60,13 +81,13 @@ export default function Projects() {
               >
                 <img
                   src={`/${project.key}-904w.png`}
-                  alt={`${project.key} webbapp`}
+                  alt={t.imageAlt(project.key)}
                   className="w-full rounded-[2rem]"
                 />
               </a>
               <p className="mt-2 text-xl">{project.teaser}</p>
-              {project.body.map((p) => (
-                <p className="mt-6">{p}</p>
+              {project.body.map((p, i) => (
+                <p className="mt-6" key={i}>{p}</p>
               ))}
             </div>
           </article>

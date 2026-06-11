@@ -71,11 +71,7 @@ export const largeProjects = [
     teaser:
       'DiskHunt är en sajt för att hitta och jämföra lagringsenheter som SSD- och HDD-hårddiskar. Med smarta filter, prisvisning och en jämförelsevy gör den det enkelt att hitta rätt lagring för just dina behov.',
     body: [
-      <>
-        Sajten är byggd som en PWA med React, TypeScript och Vite. Produktdata
-        hämtas från Amazon via Rainforest API och lagras i ett eget
-        backoffice-system som jag också byggt från grunden.
-      </>,
+      'Sajten är byggd med Next.js, React och TypeScript. Produktdata hämtas från Amazon via Rainforest API och lagras i ett eget backoffice-system som jag också byggt från grunden.',
       'Backoffice-systemet låter mig söka efter produkter på Amazon, berika dem med detaljerad data och synkronisera dem till sajten. Det består av ett Node.js/Fastify-API och ett React-gränssnitt.',
     ],
     key: 'diskhunt',
