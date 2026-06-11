@@ -23,4 +23,6 @@ jobs:
       - run: npm run build
 
       - name: Deploy to GitHub Pages
-        run: npx gh-pages -d out --dotfiles -u "github-actions <github-actions@users.noreply.github.com>" -r "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
+        run: |
+          touch out/.nojekyll
+          npx gh-pages -d out --dotfiles -u "github-actions <github-actions@users.noreply.github.com>" -r "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git"
