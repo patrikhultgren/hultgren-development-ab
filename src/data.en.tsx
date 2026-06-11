@@ -72,7 +72,7 @@ export const largeProjects = [
     link: 'https://www.diskhunt.com',
   },
   {
-    title: 'Väder (Weather)',
+    title: 'Weather',
     teaser:
       'Väder is a PWA with offline support that fetches weather data from Yr. Try adding the site as an icon on your home screen and it will feel like a native app. See the weather wherever you are in the world.',
     body: [
@@ -95,7 +95,7 @@ export const largeProjects = [
     link: 'https://patrikhultgren.github.io/weather/',
   },
   {
-    title: 'Kalender (Calendar)',
+    title: 'Calendar',
     teaser:
       'The Calendar web app makes it easy to see week numbers and public holidays. To learn more and achieve good performance I chose to build it with Svelte.',
     body: [

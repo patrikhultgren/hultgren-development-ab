@@ -74,7 +74,7 @@ export const largeProjects = [
     link: 'https://www.diskhunt.com/de-de',
   },
   {
-    title: 'Väder (Wetter)',
+    title: 'Wetter',
     teaser:
       'Väder ist eine PWA mit Offline-Unterstützung, die Wetterdaten von Yr abruft. Füge die Seite als Symbol auf deinem Startbildschirm hinzu und sie fühlt sich wie eine native App an. Sieh das Wetter überall auf der Welt.',
     body: [

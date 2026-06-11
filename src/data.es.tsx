@@ -72,7 +72,7 @@ export const largeProjects = [
     link: 'https://www.diskhunt.com/es-es',
   },
   {
-    title: 'Väder (Tiempo)',
+    title: 'Tiempo',
     teaser:
       'Väder es una PWA con soporte offline que obtiene datos meteorológicos de Yr. Prueba a añadir el sitio como icono en tu pantalla de inicio y se sentirá como una app nativa. Consulta el tiempo donde quieras en el mundo.',
     body: [
@@ -95,7 +95,7 @@ export const largeProjects = [
     link: 'https://patrikhultgren.github.io/weather/',
   },
   {
-    title: 'Kalender (Calendario)',
+    title: 'Calendario',
     teaser:
       'La app web Calendario facilita consultar números de semana y festivos. Para aprender más y lograr buen rendimiento, decidí construirla con Svelte.',
     body: [
