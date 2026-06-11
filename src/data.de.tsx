@@ -65,7 +65,7 @@ export const largeProjects = [
   {
     title: 'DiskHunt',
     teaser:
-      'DiskHunt ist eine Website zum Finden und Vergleichen von Speichergeräten wie SSDs und HDDs. Mit intelligenten Filtern, Preisanzeige und einer Vergleichsansicht findet man leicht den passenden Speicher für seine Bedürfnisse.',
+      'DiskHunt ist eine Website zum Finden und Vergleichen von Speichergeräten wie SSDs und HDDs. Mit intelligenten Filtern und einer Vergleichsansicht findet man leicht den passenden Speicher für seine Bedürfnisse.',
     body: [
       'Die Website ist mit Next.js, React und TypeScript gebaut. Produktdaten werden von Amazon über die Rainforest API abgerufen und in einem eigenen Backoffice-System gespeichert, das ich ebenfalls von Grund auf entwickelt habe.',
       'Das Backoffice ermöglicht mir, Produkte auf Amazon zu suchen, mit detaillierten Daten anzureichern und mit der Website zu synchronisieren. Es besteht aus einer Node.js/Fastify-API und einer React-Oberfläche.',
